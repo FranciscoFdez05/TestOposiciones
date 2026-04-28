@@ -34,33 +34,32 @@
         .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 12px 20px;
+            padding: 6px 16px;
             text-align: center;
             flex-shrink: 0;
         }
 
         .header h1 {
-            font-size: 28px;
-            margin-bottom: 4px;
+            font-size: 20px;
+            margin-bottom: 0;
         }
 
         .header p {
-            font-size: 15px;
-            opacity: 0.9;
+            display: none;
         }
 
         .bloques-container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 6px;
-            padding: 10px;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 5px;
+            padding: 6px 8px;
             background: #f8f9fa;
             flex-shrink: 0;
             overflow-x: auto;
         }
 
         .bloque-btn {
-            padding: 10px;
+            padding: 6px 10px;
             background: white;
             border: 2px solid #667eea;
             border-radius: 8px;
@@ -68,8 +67,10 @@
             color: #667eea;
             cursor: pointer;
             transition: all 0.3s;
-            font-size: 18px;
+            font-size: 15px;
             white-space: nowrap;
+            flex: 1;
+            min-width: 0;
         }
 
         .bloque-btn:active {
@@ -86,21 +87,21 @@
         .content {
             flex: 1;
             overflow-y: auto;
-            padding: 10px 15px;
+            padding: 6px 10px;
             display: flex;
             flex-direction: column;
         }
 
         .tema-dropdown {
-            margin-bottom: 10px;
+            margin-bottom: 6px;
         }
 
         .dropdown-select {
             width: 100%;
-            padding: 10px;
+            padding: 7px 10px;
             border: 2px solid #ddd;
             border-radius: 8px;
-            font-size: 18px;
+            font-size: 16px;
             color: #333;
             background: white;
             cursor: pointer;
@@ -117,8 +118,8 @@
             position: relative;
             background: #f8f9fa;
             border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 12px;
+            margin-bottom: 6px;
             flex: 1;
             overflow-y: auto;
             display: none;
@@ -130,55 +131,55 @@
         }
 
         .pregunta-numero {
-            font-size: 16px;
+            font-size: 13px;
             color: #999;
-            margin-bottom: 15px;
+            margin-bottom: 8px;
             text-transform: uppercase;
             font-weight: bold;
         }
 
         .pregunta-texto {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 600;
             color: #333;
-            margin-bottom: 25px;
-            line-height: 1.5;
+            margin-bottom: 14px;
+            line-height: 1.4;
         }
 
         .opciones {
             display: flex;
             flex-direction: column;
-            gap: 12px;
-            margin-bottom: 20px;
+            gap: 8px;
+            margin-bottom: 10px;
             flex: 1;
         }
 
         .opcion {
-            padding: 20px;
+            padding: 14px 16px;
             border: 2px solid #ddd;
             border-radius: 8px;
             background: white;
             cursor: pointer;
             transition: all 0.3s;
             text-align: left;
-            font-size: 18px;
+            font-size: 17px;
             display: flex;
             align-items: center;
-            gap: 16px;
+            gap: 12px;
         }
 
         .opcion-letra {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
+            width: 34px;
+            height: 34px;
             background: #f0f0f0;
             border-radius: 50%;
             font-weight: bold;
             flex-shrink: 0;
             color: #666;
-            font-size: 18px;
+            font-size: 16px;
         }
 
         .opcion-texto {
@@ -255,13 +256,13 @@
         .controles {
             display: flex;
             gap: 10px;
-            margin-top: 15px;
+            margin-top: 8px;
             padding: 0;
         }
 
         .btn {
             flex: 1;
-            padding: 16px;
+            padding: 12px;
             border: none;
             border-radius: 8px;
             font-weight: bold;
@@ -286,10 +287,10 @@
         }
 
         .progreso {
-            margin-top: 20px;
-            padding-top: 15px;
+            margin-top: 8px;
+            padding-top: 8px;
             border-top: 1px solid #ddd;
-            font-size: 13px;
+            font-size: 12px;
             color: #666;
             text-align: center;
         }
@@ -339,28 +340,22 @@
         }
 
         @media (max-width: 600px) {
-            .bloques-container {
-                grid-template-columns: repeat(4, 1fr);
-                gap: 6px;
-                padding: 10px;
-            }
-
             .bloque-btn {
-                padding: 12px;
-                font-size: 15px;
+                padding: 6px 8px;
+                font-size: 14px;
             }
 
             .header h1 {
-                font-size: 26px;
+                font-size: 18px;
             }
 
             .pregunta-texto {
-                font-size: 19px;
+                font-size: 18px;
             }
 
             .opcion {
-                padding: 18px;
-                font-size: 17px;
+                padding: 12px 14px;
+                font-size: 16px;
             }
         }
 
@@ -472,12 +467,12 @@
         }
 
         .btn-mezclar {
-            padding: 10px 14px;
+            padding: 7px 12px;
             background: white;
             border: 2px solid #667eea;
             border-radius: 8px;
             color: #667eea;
-            font-size: 18px;
+            font-size: 16px;
             cursor: pointer;
             transition: all 0.2s;
             white-space: nowrap;
