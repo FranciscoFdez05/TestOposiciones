@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 2 - Lenguajes de Programación y Estructuras de Datos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cuál de los siguientes lenguajes no pertenece a una clasificación por nivel de abstracción del procesador?",
+      "opciones": [
+        "Lenguaje máquina.",
+        "Lenguaje de bajo nivel.",
+        "Lenguaje de nivel trasversal.",
+        "Lenguaje de alto nivel."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "En relación a las estructuras de datos, señale la opción incorrecta:",
+      "opciones": [
+        "Las cadenas son estructuras de datos contiguas.",
+        "Los vectores no son estructuras de datos contiguas.",
+        "Un array bidimensional es una matriz.",
+        "Una cola es una estructura FIFO (First in, First Out)."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "En relación con las funciones lógicas. Suponiendo que a=0 y b=1, ¿cuál de las siguientes sentencias es incorrecta?",
+      "opciones": [
+        "a XOR b = 1",
+        "a XNOR b = 0",
+        "a NOR b = 1",
+        "a NAND b = 1"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuál no es un lenguaje de programación imperativo?",
+      "opciones": [
+        "Cobol.",
+        "Pascal.",
+        "C.",
+        "Prolog."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "Con respecto a JSON, señala la respuesta correcta:",
+      "opciones": [
+        "Es un tipo de gramática XML.",
+        "Es una API de Java.",
+        "Es un conjunto de librerías de JavaScript.",
+        "Es un formato de intercambio de datos."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Cuál de las siguientes afirmaciones no es correcta pensando en el JavaScript?",
+      "opciones": [
+        "Usado para crear programas que luego son acoplados a una página web.",
+        "Usado para crear programas que luego son acoplados en programas más grandes.",
+        "Sirve para crear efectos y realizar acciones interactivas.",
+        "No está pensado para realizar videojuegos."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "Se llama tipo primitivo o tipo elemental a:",
+      "opciones": [
+        "Los tipos de datos originales de un lenguaje de programación.",
+        "Los tipos de datos abstractos.",
+        "Los tipos de estructuras de datos.",
+        "Todas son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "Un puntero:",
+      "opciones": [
+        "Es un objeto del lenguaje de programación, cuyo valor se refiere a (o \"apunta a\") otro valor almacenado en otra parte de la memoria del ordenador utilizando su dirección.",
+        "Es un objeto del lenguaje de programación, cuyo valor se refiere a (o \"apunta a\") otro valor almacenado en otra parte de la memoria del ordenador utilizando su valor.",
+        "No referencia a una ubicación en memoria.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 9,
+      "enunciado": "Los vectores pueden ser:",
+      "opciones": [
+        "Estáticos y dinámicos.",
+        "Unidimensionales y abstractos.",
+        "Estáticos y abstractos.",
+        "Dinámicos y abstractos."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Cuál de las siguientes expresiones no es correcta?",
+      "opciones": [
+        "Las expresiones son combinaciones de constantes, variables y operadores de diferentes valores que nos permiten dividir datos para obtener información nueva.",
+        "Las expresiones son combinaciones de constantes, variables y operadores de diferentes tipos que nos permiten manipular datos para obtener información nueva.",
+        "Las expresiones son combinaciones de constantes, variables y operadores de diferentes clases que nos permiten obtener datos para obtener información nueva.",
+        "Las respuestas a) y b) son correctas."
+      ],
+      "correcta": 1
+    }
+  ]
+}

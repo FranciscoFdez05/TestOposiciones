@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 1 - Modelado de Datos y Normalización",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cuál es el orden de ejecución de los modelos Físico, Conceptual y Lógico?",
+      "opciones": [
+        "Conceptual - Físico - Lógico.",
+        "Conceptual - Lógico - Físico.",
+        "Físico - Lógico - Conceptual.",
+        "Lógico - Físico - Conceptual."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "La primera forma normal establece que en cada intersección de fila y atributo de la entidad:",
+      "opciones": [
+        "No existe un único valor.",
+        "Puede existir una lista de valores pero unívoca.",
+        "Existe una lista de valores.",
+        "Existe un único valor y no existe una lista de valores."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "La tercera forma normal exige que no solo cada atributo no clave sea dependiente de toda la clave principal, sino que los atributos no clave sean:",
+      "opciones": [
+        "Dependientes entre sí.",
+        "Independientes entre sí.",
+        "Valores atómicos relacionados.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "El Modelo de Datos Conceptual:",
+      "opciones": [
+        "Representan la vista que cada usuario tiene de la organización.",
+        "Se denomina en ocasiones Universo de Discurso.",
+        "Representan la vista lógica (o comunitaria), que es independiente del SGBD.",
+        "Las respuestas a) y c) son correctas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Cuál de los siguientes modelos de datos no está basado en objetos?",
+      "opciones": [
+        "Entidad-Relación.",
+        "Semántico.",
+        "Funcional.",
+        "Gestión de grafos."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Cuál de los modelos de datos red, jerárquico y relacional es el más moderno?",
+      "opciones": [
+        "Modelo de red.",
+        "Modelo jerárquico.",
+        "Modelo de datos relacional.",
+        "Los modelos de datos en red y relacional fueron desarrollados casi 10 años antes que el modelo de datos jerárquico."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "Según Métrica V3, en el modelo Entidad / Relación, las relaciones se definen por:",
+      "opciones": [
+        "Categoría, nombre y tipo de correspondencia.",
+        "Atributo, cardinalidad, nombre.",
+        "Atributo, dominio, nombre.",
+        "Cardinalidad, nombre, tipo de correspondencia."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "En el modelo de datos jerárquico:",
+      "opciones": [
+        "Los registros no aparecen como nodos.",
+        "Los datos se representan como colecciones de registros.",
+        "Cada nodo puede tener \"N\" padres.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Cuál es el esquema del que se puede decir que es el \"corazón\" de la base de datos?",
+      "opciones": [
+        "Modelo Físico.",
+        "Modelo Conceptual.",
+        "Modelo Lógico.",
+        "Modelo Externo."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "En un diagrama de Flujo de Datos (DFD), indique cuál de las siguientes afirmaciones es FALSA:",
+      "opciones": [
+        "El proceso nunca es el origen ni el final de los datos.",
+        "El almacén no puede crear, transformar o destruir datos.",
+        "Un almacén no puede aparecer varias veces en el diagrama.",
+        "Un proceso siempre es necesario como intermediario entre una entidad externa y un almacén de datos."
+      ],
+      "correcta": 2
+    }
+  ]
+}

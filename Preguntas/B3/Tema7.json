@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 7 - Tecnologías Web y Programación del Lado del Cliente",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Qué es un CGI?",
+      "opciones": [
+        "Es una forma de diseñar páginas web estáticas.",
+        "Es un mecanismo de comunicación por el que una aplicación que corre en una computadora cliente puede solicitar datos de un programa ejecutado en un servidor web.",
+        "Es un protocolo que es muy usado en las comunicaciones entre cliente y servidor que permite que el tráfico vaya cifrado de extremo a extremo.",
+        "Es el Interfaz Gráfico de Cliente."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Qué lenguaje permite efectos visuales, menús interactivos y adaptación al tipo de dispositivo en una web?",
+      "opciones": [
+        "JavaScript.",
+        "HTML.",
+        "XHTML.",
+        "CGI."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuál es la finalidad de CSS?",
+      "opciones": [
+        "Realizar peticiones al servidor en segundo plano.",
+        "Simular una aplicación de escritorio desde una página.",
+        "Separar la estructura del contenido de su presentación visual.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Qué tecnología permite crear hilos en una máquina virtual para cada cliente, optimizando el rendimiento en comparación con CGI?",
+      "opciones": [
+        "HTML5.",
+        "Applet.",
+        "PHP.",
+        "Servlet."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Qué tecnología permite actualizar dinámicamente una parte de la página web sin recargarla completamente?",
+      "opciones": [
+        "Applet.",
+        "Servlet.",
+        "AJAX.",
+        "XHTML."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "enunciado": "A continuación se tiene una definición de variable en JavaScript. ¿Qué tipo de variable es? var ejemplo_variable = [\"rojo\", \"azul\", \"blanco\"];",
+      "opciones": [
+        "Numérica.",
+        "Cadena de texto.",
+        "Booleana.",
+        "Array."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "¿De qué tipo son las variables que se definen dentro de una función en JavaScript?",
+      "opciones": [
+        "En JavaScript, solo existen variables globales.",
+        "Locales.",
+        "Variables de salida.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Qué ocurre si en una función se utiliza una variable que no se ha definido dentro de esa función en JavaScript?",
+      "opciones": [
+        "La variable pasa a ser global.",
+        "Da error ya que todas las variables se tienen que definir en una función.",
+        "Todas las variables que se usan en una función son locales.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Qué afirmación NO es correcta respecto a los servlets?",
+      "opciones": [
+        "Están escritos en Java.",
+        "Se cargan una vez en el servidor y se crea un thread por cada petición.",
+        "Los servlets se ejecutan en una máquina virtual de Java en el servidor.",
+        "Tienen problemas de seguridad y las vulnerabilidades de su código han sido explotadas por los hackers."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "En relación con los servicios web, ¿qué es lo que provee con un catálogo de negocios en Internet en el contexto de los servicios web?",
+      "opciones": [
+        "SOAP.",
+        "WSDL.",
+        "UDDI.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 2
+    }
+  ]
+}

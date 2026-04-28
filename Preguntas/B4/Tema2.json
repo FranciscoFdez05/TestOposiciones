@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 2 - DBA y Metodologías de Desarrollo",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "La sigla en inglés DBA se corresponde con:",
+      "opciones": [
+        "data Base Administrator.",
+        "databasic Administrator.",
+        "database Administrator.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cuál de las siguientes tareas no se corresponden con las de un DBA?",
+      "opciones": [
+        "Implementar, dar soporte y gestionar bases de datos corporativas.",
+        "Crear y configurar bases de datos relacionales.",
+        "Ser responsable de la integridad de los datos y la disponibilidad.",
+        "Gestión de usuarios."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuál de las siguientes tareas se corresponden con las de un DBA?",
+      "opciones": [
+        "Diseñar, desplegar y monitorizar servidores de bases de datos.",
+        "Garantizar la seguridad de las bases de datos, realizar copias de seguridad y llevar a cabo la recuperación de desastres.",
+        "Diseñar planes de contingencia.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "El framework para metodología de desarrollo de software consiste en:",
+      "opciones": [
+        "Una filosofía de desarrollo de programas de computación con el enfoque del proceso de desarrollo de software.",
+        "Herramientas, modelos y métodos para asistir al proceso de desarrollo de hardware.",
+        "Las respuestas a) y b) son correctas.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Cuál de los siguientes enfoques no es framework interactivo?",
+      "opciones": [
+        "Modelo en cascada.",
+        "Prototipado.",
+        "Incremental.",
+        "Espiral."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Cuál de los siguientes niveles no está relacionado con la optimización en la gestión del DBA?",
+      "opciones": [
+        "Nivel de diseño.",
+        "Nivel de código fuente.",
+        "Nivel de compilación.",
+        "Nivel de Acceso al modelo relacional."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "Las siglas CASE significan:",
+      "opciones": [
+        "Computer Aidd Software Enginering.",
+        "Computer Aided Software Enginering.",
+        "Computer Aided Software Engineering.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 8,
+      "enunciado": "Las herramientas CASE son:",
+      "opciones": [
+        "Diversas aplicaciones informáticas destinadas a aumentar la productividad en el desarrollo de software reduciendo el costo de las mismas en términos de tiempo y de dinero.",
+        "Diversas aplicaciones informáticas destinadas a controlar la productividad en el desarrollo de software reduciendo el costo de las mismas en términos de tiempo y de dinero.",
+        "Diversos programas informáticos destinados a aumentar la productividad en el desarrollo de software reduciendo el costo de las mismas en términos de tiempo y de dinero.",
+        "Las respuestas a) y b) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Cuál de las siguientes opciones no pertenece a las fases de las herramientas de tipo UCASE (Upper Case)?",
+      "opciones": [
+        "Planificación.",
+        "Análisis.",
+        "Implementación.",
+        "Diseño."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "Poseidón es una aplicación de:",
+      "opciones": [
+        "Diagramado de UML escrita en Java.",
+        "Publicada bajo la Licencia BSD.",
+        "Está disponible en cualquier plataforma soportada por HTML5.",
+        "Las respuestas a) y b) son correctas."
+      ],
+      "correcta": 3
+    }
+  ]
+}

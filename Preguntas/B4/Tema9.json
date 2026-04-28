@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 9 - Seguridad en Redes y Gestión de Amenazas",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "La seguridad en las Redes de la información requiere que los recursos sean modificados por quienes están autorizados y que los métodos y los procesamientos de la información sean salvaguardados en su totalidad y con exactitud. Esto lo cumple el requisito de:",
+      "opciones": [
+        "Integridad.",
+        "Confidencialidad.",
+        "Disponibilidad.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cuál de los siguientes no es un ataque a la seguridad de la red de tipo activo?",
+      "opciones": [
+        "Enmascaramiento.",
+        "Análisis de Tráfico.",
+        "Repetición.",
+        "Denegación de Servicios."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuál de las siguientes no es una herramientas de seguridad?",
+      "opciones": [
+        "Autenticación.",
+        "Cifrado.",
+        "Vlan.",
+        "Hash."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "Completa el texto. En una red LAN se utilizan los __________ para agrupar estaciones de trabajo y servidores en agrupaciones lógicas.",
+      "opciones": [
+        "Routers.",
+        "Switches.",
+        "Hubs.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 5,
+      "enunciado": "Al elemento de hardware o software utilizado en una red de ordenadores para prevenir algunos tipos de comunicaciones prohibidos según las políticas de red se le llama:",
+      "opciones": [
+        "Proxy.",
+        "Firewall.",
+        "Bridge.",
+        "Hub."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "Las amenazas se pueden dividir en tres grupos:",
+      "opciones": [
+        "Naturales, Intencionales e Involuntarias.",
+        "Naturales, Intencionales y Voluntarias.",
+        "Naturales, Involuntarias y Voluntarias.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "La vulnerabilidad es el estado en el que se encuentra un activo con respecto a una amenaza y corresponde un valor calculado así:",
+      "opciones": [
+        "Vulnerabilidad = Probabilidad de Ocurrencia - Impacto.",
+        "Vulnerabilidad = Probabilidad de Ocurrencia / Impacto.",
+        "Vulnerabilidad = Probabilidad de Ocurrencia * Impacto.",
+        "Vulnerabilidad = Probabilidad de Ocurrencia + Impacto."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Cuál de los siguientes no es un requisito para la seguridad?",
+      "opciones": [
+        "Entrenamiento a los usuarios en cuanto a las normas, procedimientos y objetivos de acceso a la red.",
+        "Protección de los equipos de la red.",
+        "Procedimientos.",
+        "Gestión de documentación."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Cuál de los siguientes no es un ataque de red?",
+      "opciones": [
+        "Snooping.",
+        "Spoofing.",
+        "Snooling.",
+        "Flooding."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "A la modificación desautorizada a los datos, o al software instalado en un sistema, incluyendo borrado de archivos se le llama:",
+      "opciones": [
+        "Data Diggling.",
+        "Tampering.",
+        "Snooping.",
+        "Snoofing."
+      ],
+      "correcta": 1
+    }
+  ]
+}

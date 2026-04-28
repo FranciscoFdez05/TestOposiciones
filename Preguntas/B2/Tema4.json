@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque II - Test 4 - Sistemas Operativos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Indica cuál de los siguientes elementos es parte del Sistema Operativo:",
+      "opciones": [
+        "Hardware.",
+        "Kernel.",
+        "Clúster.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Dentro de los diferentes planificadores de tareas, podemos encontrar del tipo:",
+      "opciones": [
+        "Automático.",
+        "Manual.",
+        "Preemption.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "En términos de sistemas operativos, llamamos Quantum a:",
+      "opciones": [
+        "Unidad lógica.",
+        "Unidad de tiempo.",
+        "Unidad de capacidad.",
+        "Unidad de complejidad."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "En los métodos de asignación de memoria, se caracteriza por provocar fragmentación interna el/la...:",
+      "opciones": [
+        "Memoria virtual.",
+        "Intercambio (Swapping).",
+        "Segmentación.",
+        "Paginación."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Cuál de los siguientes sistemas de archivos pertenece a Linux?",
+      "opciones": [
+        "FAT16.",
+        "FAT32.",
+        "Ext3.",
+        "HFS."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "enunciado": "Una de las novedades introducidas por el Windows 7 es:",
+      "opciones": [
+        "Jump List.",
+        "Escritorio compartido.",
+        "Escritorio Remoto.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Para cerrar una ventana activa en Windows, podemos usar la combinación de teclas:",
+      "opciones": [
+        "ALT+F4.",
+        "ALT+F5.",
+        "CTRL+F4.",
+        "CTRL+F5."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "En los sistemas Unix/Linux la parte para introducir comandos se denomina:",
+      "opciones": [
+        "Kernel.",
+        "Shell.",
+        "Núcleo.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 9,
+      "enunciado": "La idea de Linux surgió en:",
+      "opciones": [
+        "1981.",
+        "1991.",
+        "2001.",
+        "2011."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Cuál de las siguientes no es una distribución Linux?",
+      "opciones": [
+        "Red Hat.",
+        "Debian.",
+        "Mandriva.",
+        "Maldiva."
+      ],
+      "correcta": 3
+    }
+  ]
+}

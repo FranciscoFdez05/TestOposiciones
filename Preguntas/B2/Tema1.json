@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque II - Test 1 - Datos, Información y Sistemas",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Indica la respuesta correcta:",
+      "opciones": [
+        "Los datos siempre contienen información.",
+        "Los datos no siempre contienen información.",
+        "Los datos se consiguen agrupando información.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "La información se podría decir que:",
+      "opciones": [
+        "Procede del procesado de los datos.",
+        "Para ser considerada como tal debe ser relevante.",
+        "Las dos anteriores son correctas.",
+        "Siempre está disponible para el usuario."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "Una posible clasificación de los datos podría ser:",
+      "opciones": [
+        "Según tipo almacenamiento.",
+        "Según longitud.",
+        "Según se muestren al usuario.",
+        "Según su importancia."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "Indica la respuesta correcta. 1 TB equivale a:",
+      "opciones": [
+        "1000 MegaBytes.",
+        "1000 KiloBytes.",
+        "1024 Bytes.",
+        "1024 GigaBytes."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "Indica la respuesta correcta. ¿Cuál es el equivalente decimal a 1A?",
+      "opciones": [
+        "26.",
+        "36.",
+        "16.",
+        "20."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "Indica la respuesta correcta. ¿Cuál es el equivalente hexadecimal a 167,0?",
+      "opciones": [
+        "7A.",
+        "A7.",
+        "167.",
+        "B6."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 7,
+      "enunciado": "Clasifica de mayor a menor: PetaByte, KiloByte, ZettaByte, Yottabyte:",
+      "opciones": [
+        "PetaByte, KiloByte, ZettaByte, YottaByte.",
+        "YottaByte, ZettaByte, PetaByte, KiloByte.",
+        "ZettaByte, YottaByte, PetaByte, KiloByte.",
+        "PetaByte, ZettaByte, YottaByte, KiloByte."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Qué condición deben cumplir los datos para considerar que aportan información?",
+      "opciones": [
+        "Originalidad.",
+        "Ser numéricos.",
+        "Integridad.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "Indica cuál no podría considerarse una característica de un sistema de información:",
+      "opciones": [
+        "Flexibilidad.",
+        "Fiabilidad.",
+        "Velocidad.",
+        "Capacidad."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Qué módulo del Sistema de Información se encarga de los algoritmos y su procesamiento?",
+      "opciones": [
+        "Análisis.",
+        "Evaluación.",
+        "Entrada.",
+        "Búsqueda."
+      ],
+      "correcta": 0
+    }
+  ]
+}

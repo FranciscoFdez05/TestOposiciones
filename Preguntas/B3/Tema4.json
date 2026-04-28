@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 4 - Programación Orientada a Objetos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "En la programación orientada a objetos:",
+      "opciones": [
+        "Se pone el foco en lo que hay que hacer para resolver el problema.",
+        "Se pone el foco en cómo resolver el problema.",
+        "Se pone el foco en cómo minimizar el problema.",
+        "Se pone el foco en el escenario del problema."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 2,
+      "enunciado": "Cuando decimos que la metodología orientada a objetos presenta una disminución de la brecha semántica nos referimos a que:",
+      "opciones": [
+        "Recorta la separación entre la fase de análisis y diseño.",
+        "Recorta la separación entre la fase de diseño e implementación.",
+        "Recorta la separación entre la fase de análisis e implementación.",
+        "Recorta la separación existente entre el mundo real y el mundo del software."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "Las propiedades fundamentales de la programación orientada a objetos son:",
+      "opciones": [
+        "Abstracción, objetividad, herencia y polimorfismo.",
+        "Abstracción, objetividad, encapsulado y polimorfismo.",
+        "Abstracción, encapsulado, herencia y tipificidad.",
+        "Abstracción, encapsulado, herencia y polimorfismo."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "El encapsulado protegido permite:",
+      "opciones": [
+        "Acceder las funciones de clases heredadas.",
+        "Puede acceder a los datos o métodos de una clase.",
+        "El acceso está restringido a las clases.",
+        "El acceso está restringido a los métodos de esa clase."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "El polimorfismo es:",
+      "opciones": [
+        "El uso de operadores o funciones de forma diferente, dependiendo de las funciones sobre los que están actuando.",
+        "El uso de operadores o funciones de forma diferente, dependiendo de los objetos sobre los que están actuando.",
+        "El uso de operadores o funciones de forma diferente, dependiendo del criterio del programador.",
+        "El uso de operadores o funciones de forma diferente, dependiendo de los datos sobre los que están actuando."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "Indica la expresión correcta:",
+      "opciones": [
+        "La herencia debe entenderse como una herramienta trascedente, pues permite establecer una relación jerárquica entre todos los conceptos.",
+        "La herencia debe entenderse como una herramienta trascedente, pues permite establecer una relación libre entre todos los conceptos.",
+        "La herencia debe entenderse como una herramienta trascedente, pues permite establecer una relación condicionada entre todos los conceptos.",
+        "La herencia debe entenderse como una herramienta trascedente, pues permite establecer una relación independiente entre todos los conceptos."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Un objeto está constituido por:",
+      "opciones": [
+        "Identidad, estado y clase.",
+        "Identidad, estado y complemento.",
+        "Identidad, clase y comportamiento.",
+        "Identidad, estado y comportamiento."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "Las agregaciones son un tipo de relaciones entre objetos que se caracterizan porque:",
+      "opciones": [
+        "Establecen una asociación concreta por la que un objeto denominado cliente utiliza o demanda el servicio de otro objeto denominado servidor.",
+        "Establecen relaciones entre un conjunto y una parte del mismo.",
+        "Establecen una asociación por la que un objeto llama a una parte de otro.",
+        "Establecen una asociación por la que un objeto se relaciona con otro de su misma clase."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 9,
+      "enunciado": "Una clase es:",
+      "opciones": [
+        "Un conjunto de objetos que comparten una estructura y comportamiento comunes.",
+        "Un conjunto de objetos que comparten un fin común.",
+        "Un conjunto de objetos que comparten una estructura y objetivos comunes.",
+        "Un conjunto de objetos que comparten una estructura y funciones comunes."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "Los atributos de un objeto son:",
+      "opciones": [
+        "Un conjunto de valores numéricos o alfanuméricos.",
+        "Un conjunto de valores numéricos.",
+        "Un conjunto de valores aleatorios.",
+        "Nunca puede ser un valor único."
+      ],
+      "correcta": 0
+    }
+  ]
+}

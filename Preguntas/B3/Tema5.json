@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 5 - Java EE, .NET y Herramientas de Desarrollo",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Java Server Faces (JSF) en Java EE se desarrolla en la capa:",
+      "opciones": [
+        "Cliente.",
+        "Web.",
+        "De negocio.",
+        "Componentes."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Enterprise Java Beans es un contenedor:",
+      "opciones": [
+        "Cliente.",
+        "Web.",
+        "De negocio.",
+        "Componentes."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "Java EE Connector Arquitectura:",
+      "opciones": [
+        "Permite el acceso a otro tipo de sistemas de información empresarial (EIS) como parte de soluciones de integración de aplicación de empresa (EAI).",
+        "Permite a las aplicaciones de Java EE acceder a servicios de control de autenticación y acceso.",
+        "Es el servicio de directorio, permite a los clientes descubrir y buscar objetos y datos a través de un nombre.",
+        "Es una interfaz de programación de aplicaciones (API) de Java EE en Extensible Markup Language (XML) para la creación de servicios web."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "Java Authentication and Authorization Service (JAAS):",
+      "opciones": [
+        "Incorpora funciones criptográficas que son necesarias para que determinadas aplicaciones se puedan ejecutar.",
+        "Está destinado a proveer un proceso de comunicación segura en Internet.",
+        "Es una interfaz genérica para la autenticación y la mensajería segura.",
+        "Es una interfaz que permite a las aplicaciones Java acceder a servicios de control de autenticación y autorización."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "En relación con Java Persistence API (JPA) indica la afirmación incorrecta:",
+      "opciones": [
+        "JPA se puede definir como un modelo de persistencia estándar para todas las aplicaciones Java, no pudiendo ser utilizado tanto en Java SE, como en Java EE.",
+        "Es una solución completa, que se caracteriza por soportar tanto la herencia como el polimorfismo.",
+        "El objetivo principal que persigue JPA es mantener las ventajas de la orientación a objetos al interactuar con bases de datos.",
+        "JPA emplea un modelo de anotaciones de metadatos y archivos del descriptor XML para configurar el mapeo entre objetos Java en el ámbito de aplicación y las tablas de la base de datos relacional."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "Un ORM:",
+      "opciones": [
+        "Tiene como objetivo establecer una correspondencia (o mapeo) entre el modelo de objetos y el modelo relacional, asociando cada clase persistente a una tabla y cada uno de sus atributos a un campo de la tabla.",
+        "Tiene como objetivo establecer una correspondencia (o mapeo) entre el modelo de análisis y el modelo convergente, asociando cada clase persistente a una tabla y cada uno de sus atributos a un campo de la tabla.",
+        "Tiene como objetivo establecer una correspondencia (o mapeo) entre el modelo de análisis y el modelo convergente, asociando cada clase persistente a un sistema y cada una de sus herencias a un campo de la tabla.",
+        "Tiene como objetivo establecer una correspondencia (o mapeo) entre el modelo de objetos y el modelo relacional, asociando cada clase persistente a un sistema y cada una de sus herencias a un campo de la tabla."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Indica la afirmación incorrecta relacionada con el CLR:",
+      "opciones": [
+        "Puede aislar totalmente ensamblados entre sí, cuando el código tiene seguridad de tipos.",
+        "Las aplicaciones que lo usen deben interactuar con el sistema de seguridad.",
+        "Ayuda a garantizar que los ensamblados no puedan ejercer actuaciones negativas entre ellos.",
+        "Algunas de las aplicaciones que lo usen deben interactuar con el sistema de seguridad."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "Las bibliotecas de clases seguras:",
+      "opciones": [
+        "La plataforma .NET no tiene bibliotecas de clases seguras.",
+        "No es necesario que existan permisos para poder acceder a cualquier biblioteca que use el código.",
+        "Usa peticiones de seguridad para asegurarse de que los solicitantes de la biblioteca tienen permiso para acceder a los recursos que expone.",
+        "La plataforma .NET tiene bibliotecas de herencias."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "El lenguaje C es un lenguaje:",
+      "opciones": [
+        "De propósito específico.",
+        "Estructurado.",
+        "De alta tipificidad.",
+        "Poco expresivo."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "El debugger es:",
+      "opciones": [
+        "Una herramienta para depurar el código.",
+        "Una herramienta para compilar el código.",
+        "Una herramienta para crear el código.",
+        "Una herramienta para crear la documentación."
+      ],
+      "correcta": 0
+    }
+  ]
+}

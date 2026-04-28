@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 6 - Sistemas Distribuidos y Modelo Cliente-Servidor",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Señala la afirmación que NO es una ventaja de los sistemas distribuidos:",
+      "opciones": [
+        "Permite compartir recursos tanto hardware como software.",
+        "Suelen ser sistemas cerrados donde es posible combinar tanto hardware como software de distintos fabricantes.",
+        "Se da la concurrencia.",
+        "Son sistemas escalables."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Señala la afirmación FALSA en relación con los sistemas distribuidos:",
+      "opciones": [
+        "Los sistemas distribuidos son más complejos que los centralizados.",
+        "Hay que prestar especial atención a la seguridad.",
+        "Un sistema distribuido es altamente predecible donde cada elemento del sistema tiene una función determinada.",
+        "En un sistema distribuido es necesario buscar algún tipo de mecanismo para lograr una sincronización común."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "Señala el modelo que corresponde con la siguiente afirmación: \"Existe un código almacenado en un servidor. Cuando un usuario hace una petición, se descarga el código y se ejecuta de forma local\":",
+      "opciones": [
+        "Código móvil.",
+        "Agentes móviles.",
+        "Computadores en red.",
+        "Clientes ligeros."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "Señala la afirmación que corresponde con la definición de agente móvil:",
+      "opciones": [
+        "Las aplicaciones se ejecutan en un servidor remoto muy potente.",
+        "Es un programa en ejecución que se va trasladando a distintos ordenadores de una red para realizar alguna función.",
+        "Tanto el sistema operativo de los ordenadores como las aplicaciones software que necesite el usuario, se descargan de un servidor de archivos remoto.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 5,
+      "enunciado": "Señala la afirmación FALSA respecto al modelo cliente-servidor:",
+      "opciones": [
+        "Es un protocolo con conexión.",
+        "Es un protocolo sencillo.",
+        "Un cliente inicia una conversación mientras que los servidores están a la espera constante de mensajes por parte de algún cliente.",
+        "La comunicación entre cliente y servidor se realiza intercambiando mensajes."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "En una aplicación basada en el modelo cliente-servidor, ¿quién se encarga de la gestión de la interfaz de usuario?",
+      "opciones": [
+        "El cliente.",
+        "El servidor.",
+        "El middleware.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Qué función tiene el middleware?",
+      "opciones": [
+        "Gestionar los requerimientos de los clientes.",
+        "Gestionar las reglas de negocio.",
+        "Gestionar la presentación de la información.",
+        "Permite a un usuario de un sistema de información poder acceder a distintas fuentes de información a través de una red."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "¿En qué caso, el servidor en un modelo cliente-servidor tiene solo la función de la gestión de datos?",
+      "opciones": [
+        "Fat client.",
+        "Fat server.",
+        "Thin client.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 9,
+      "enunciado": "¿En qué caso es recomendable un servidor de transacciones?",
+      "opciones": [
+        "Para compartir ficheros en red.",
+        "En el caso de transacciones bancarias.",
+        "En el caso de un servidor de impresión.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "¿A qué lógica corresponde la siguiente afirmación: \"se comunica con la lógica de datos para almacenar datos o para recuperar información\"?",
+      "opciones": [
+        "Lógica de presentación.",
+        "Lógica de negocio.",
+        "Lógica de datos.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 1
+    }
+  ]
+}

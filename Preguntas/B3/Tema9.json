@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 9 - Herramientas CASE",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Se entiende por CASE:",
+      "opciones": [
+        "Computer-Aided Systems Engineering.",
+        "Computer Assistant Software Enable.",
+        "Ingeniería del Software Asistida por Computadora.",
+        "Las respuestas a) y c) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 2,
+      "enunciado": "La tecnología CASE pretende:",
+      "opciones": [
+        "Permitir la aplicación práctica de metodologías de desarrollo de software, lo que resulta muy difícil sin emplear herramientas.",
+        "Simplificar el mantenimiento de los programas.",
+        "Aumentar la portabilidad de las aplicaciones.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "Los sistemas CASE almacenan información por proyecto, y cada aplicación es considerada como un proyecto. ¿Es así?",
+      "opciones": [
+        "Es verdadero.",
+        "Es falso.",
+        "Depende del proyecto.",
+        "Las herramientas CASE no almacenan información."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "Señala la opción que no sea un elemento de una herramienta CASE:",
+      "opciones": [
+        "Repositorio.",
+        "Metamodelo.",
+        "Analista.",
+        "Generador de informes."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "El repositorio de una herramienta CASE:",
+      "opciones": [
+        "Es un metamodelo.",
+        "Necesita el apoyo de un SGBD.",
+        "Es un generador de informes.",
+        "Es un interfaz de usuario."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "Las herramientas CASE computacionales que apoyan cada una de las distintas etapas del ciclo de desarrollo de un sistema de información se denominan:",
+      "opciones": [
+        "I-CASE.",
+        "U-CASE.",
+        "Tools-CASE.",
+        "L-CASE."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Las herramientas CASE workbench se denominan:",
+      "opciones": [
+        "I-CASE.",
+        "U-CASE.",
+        "Tools-CASE.",
+        "L-CASE."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Es el I-CASE costoso?",
+      "opciones": [
+        "No.",
+        "Sí.",
+        "Depende del ciclo de vida.",
+        "Depende de la solución simple."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 9,
+      "enunciado": "Las herramientas U-CASE:",
+      "opciones": [
+        "Tienen mayor costo que las I-CASE.",
+        "Mejoran la productividad.",
+        "Se utilizan en plataforma PC.",
+        "Permiten la integración del ciclo de vida."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "Las herramientas L-CASE:",
+      "opciones": [
+        "Son dirigidas a las primeras fases del desarrollo.",
+        "No mejoran la productividad a corto plazo.",
+        "Permiten un eficiente soporte del mantenimiento de sistemas.",
+        "Permiten la integración del ciclo de vida."
+      ],
+      "correcta": 2
+    }
+  ]
+}

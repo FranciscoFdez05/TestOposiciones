@@ -40,12 +40,12 @@
         }
 
         .header h1 {
-            font-size: 24px;
+            font-size: 32px;
             margin-bottom: 10px;
         }
 
         .header p {
-            font-size: 14px;
+            font-size: 18px;
             opacity: 0.9;
         }
 
@@ -60,7 +60,7 @@
         }
 
         .bloque-btn {
-            padding: 12px;
+            padding: 16px;
             background: white;
             border: 2px solid #667eea;
             border-radius: 8px;
@@ -68,7 +68,7 @@
             color: #667eea;
             cursor: pointer;
             transition: all 0.3s;
-            font-size: 14px;
+            font-size: 18px;
             white-space: nowrap;
         }
 
@@ -97,10 +97,10 @@
 
         .dropdown-select {
             width: 100%;
-            padding: 12px;
+            padding: 16px;
             border: 2px solid #ddd;
             border-radius: 8px;
-            font-size: 16px;
+            font-size: 18px;
             color: #333;
             background: white;
             cursor: pointer;
@@ -114,6 +114,7 @@
         }
 
         .pregunta-container {
+            position: relative;
             background: #f8f9fa;
             border-radius: 12px;
             padding: 20px;
@@ -129,19 +130,19 @@
         }
 
         .pregunta-numero {
-            font-size: 12px;
+            font-size: 16px;
             color: #999;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             text-transform: uppercase;
             font-weight: bold;
         }
 
         .pregunta-texto {
-            font-size: 18px;
+            font-size: 22px;
             font-weight: 600;
             color: #333;
-            margin-bottom: 20px;
-            line-height: 1.4;
+            margin-bottom: 25px;
+            line-height: 1.5;
         }
 
         .opciones {
@@ -153,30 +154,31 @@
         }
 
         .opcion {
-            padding: 16px;
+            padding: 20px;
             border: 2px solid #ddd;
             border-radius: 8px;
             background: white;
             cursor: pointer;
             transition: all 0.3s;
             text-align: left;
-            font-size: 16px;
+            font-size: 18px;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 16px;
         }
 
         .opcion-letra {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 32px;
-            height: 32px;
+            width: 40px;
+            height: 40px;
             background: #f0f0f0;
             border-radius: 50%;
             font-weight: bold;
             flex-shrink: 0;
             color: #666;
+            font-size: 18px;
         }
 
         .opcion-texto {
@@ -259,7 +261,7 @@
 
         .btn {
             flex: 1;
-            padding: 12px;
+            padding: 16px;
             border: none;
             border-radius: 8px;
             font-weight: bold;
@@ -313,6 +315,29 @@
             padding: 40px 20px;
         }
 
+        .btn-cerrar {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #eee;
+            border: none;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            font-size: 18px;
+            cursor: pointer;
+            color: #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+
+        .btn-cerrar:hover {
+            background: #ddd;
+            color: #333;
+        }
+
         @media (max-width: 600px) {
             .bloques-container {
                 grid-template-columns: repeat(4, 1fr);
@@ -321,21 +346,21 @@
             }
 
             .bloque-btn {
-                padding: 10px;
-                font-size: 12px;
+                padding: 12px;
+                font-size: 15px;
             }
 
             .header h1 {
-                font-size: 20px;
+                font-size: 26px;
             }
 
             .pregunta-texto {
-                font-size: 16px;
+                font-size: 19px;
             }
 
             .opcion {
-                padding: 14px;
-                font-size: 15px;
+                padding: 18px;
+                font-size: 17px;
             }
         }
 
@@ -362,7 +387,7 @@
         </div>
 
         <div class="content">
-            <div class="tema-dropdown">
+            <div class="tema-dropdown" id="temaDropdown" style="display:none">
                 <select class="dropdown-select" id="temaSelect">
                     <option value="">Selecciona un tema...</option>
                 </select>
@@ -375,6 +400,7 @@
             </div>
 
             <div class="pregunta-container" id="preguntaContainer">
+                <button class="btn-cerrar" id="btnCerrar" title="Cerrar test">✕</button>
                 <div class="pregunta-numero" id="preguntaNumero"></div>
                 <div class="pregunta-texto" id="preguntaTexto"></div>
                 <div class="opciones" id="opciones"></div>
@@ -396,14 +422,14 @@
     <script>
         // Configuración de bloques y temas
         const estructura = {
-            B1: { nombre: 'Bloque 1', temas: 7 },
-            B2: { nombre: 'Bloque 2', temas: 6 },
-            B3: { nombre: 'Bloque 3', temas: 6 },
-            B4: { nombre: 'Bloque 4', temas: 6 },
-            S1: { nombre: 'Series 1', temas: 6 },
-            S2: { nombre: 'Series 2', temas: 6 },
-            S3: { nombre: 'Series 3', temas: 6 },
-            S4: { nombre: 'Series 4', temas: 6 }
+            B1: { nombre: 'Bloque 1', temas: 9 },
+            B2: { nombre: 'Bloque 2', temas: 5 },
+            B3: { nombre: 'Bloque 3', temas: 9 },
+            B4: { nombre: 'Bloque 4', temas: 10 },
+            S1: { nombre: 'Series 1', temas: 0 },
+            S2: { nombre: 'Series 2', temas: 0 },
+            S3: { nombre: 'Series 3', temas: 0 },
+            S4: { nombre: 'Series 4', temas: 0 }
         };
 
         let bloqueActual = null;
@@ -426,7 +452,6 @@
 
         // Seleccionar bloque
         function seleccionarBloque(bloque, btn) {
-            // Actualizar botón activo
             document.querySelectorAll('.bloque-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
@@ -436,17 +461,40 @@
             preguntas = [];
             respuestas = {};
 
-            // Actualizar dropdown de temas
-            const select = document.getElementById('temaSelect');
-            select.innerHTML = '<option value="">Selecciona un tema...</option>';
+            document.getElementById('preguntaContainer').classList.remove('activa');
+            document.getElementById('noTemaSeleccionado').classList.add('activa');
 
             const numTemas = estructura[bloque].temas;
+            const dropdown = document.getElementById('temaDropdown');
+
+            if (numTemas === 0) {
+                dropdown.style.display = 'none';
+                return;
+            }
+
+            dropdown.style.display = '';
+            const select = document.getElementById('temaSelect');
+            select.innerHTML = '<option value="">Selecciona un tema...</option>';
             for (let i = 1; i <= numTemas; i++) {
                 const option = document.createElement('option');
                 option.value = `Tema${i}`;
                 option.textContent = `Tema ${i}`;
                 select.appendChild(option);
             }
+        }
+
+        // Cerrar test
+        function cerrarTest() {
+            document.getElementById('preguntaContainer').classList.remove('activa');
+            document.getElementById('noTemaSeleccionado').classList.add('activa');
+            document.querySelectorAll('.bloque-btn').forEach(b => b.classList.remove('active'));
+            const dropdown = document.getElementById('temaDropdown');
+            dropdown.style.display = 'none';
+            bloqueActual = null;
+            temaActual = null;
+            preguntaActual = 0;
+            preguntas = [];
+            respuestas = {};
         }
 
         // Cargar tema
@@ -538,6 +586,9 @@
 
             // Mostrar contenedor de preguntas
             document.getElementById('noTemaSeleccionado').classList.remove('activa');
+
+            // Actualizar botones
+            actualizarControles();
             document.getElementById('preguntaContainer').classList.add('activa');
         }
 
@@ -554,12 +605,10 @@
 
             btnAnterior.disabled = preguntaActual === 0;
             btnSiguiente.disabled = preguntaActual === preguntas.length - 1;
-
-            btnAnterior.onclick = () => mostrarPregunta(preguntaActual - 1);
-            btnSiguiente.onclick = () => mostrarPregunta(preguntaActual + 1);
         }
 
-        // Event listeners para controles
+        document.getElementById('btnCerrar').addEventListener('click', cerrarTest);
+
         document.getElementById('btnAnterior').addEventListener('click', () => {
             mostrarPregunta(preguntaActual - 1);
         });

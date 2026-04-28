@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 8 - Protocolo TCP/IP y Arquitectura de Internet",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "El TCP/IP fue el medio ideado por los expertos:",
+      "opciones": [
+        "Robert Cerf y Vinton Kahn a comienzos de los años 70.",
+        "Robert Kahn y Vinton Cerf a comienzos de los años 60.",
+        "Robert Kahn y Vinton Cerf a comienzos de los años 70.",
+        "Robert Cerf y Vinton Kahn a comienzos de los años 60."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "Las redes que conforman las distintas capas de Internet presentan sus propios __________ para garantizar la fiabilidad de las conexiones.",
+      "opciones": [
+        "Nodos de control.",
+        "Routers.",
+        "Gateways.",
+        "Las respuestas a) y c) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuántos tipos de clases de IP hay?",
+      "opciones": [
+        "4, A, B, C y D.",
+        "5, A, B, C, D y E.",
+        "3, A, B y C.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "La dirección IP de 0.0.0.0 se denomina:",
+      "opciones": [
+        "Red por defecto (default).",
+        "Loopback.",
+        "Broadcast.",
+        "Máscara de Red."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "La dirección IP de 127.0.0.1 se denomina:",
+      "opciones": [
+        "Red por defecto (default).",
+        "Loopback.",
+        "Broadcast.",
+        "Máscara de Red."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "La dirección IP de 255.255.255.255 se denomina:",
+      "opciones": [
+        "Red por defecto (default).",
+        "Loopback.",
+        "Broadcast.",
+        "Máscara de Red."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "Completa el texto. La clase __________ se utiliza para las redes de tamaño mediano (ej. un campus universitario). Las direcciones con un primer octeto a partir del 128 al 191 son parte de esta clase.",
+      "opciones": [
+        "A.",
+        "B.",
+        "C.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "La estructura actual de Internet está basada en la interconexión de redes de forma más o menos jerárquica con varios niveles, conocidos como:",
+      "opciones": [
+        "Niers, Nier A, Nier B y Nier C.",
+        "Tiers, Tier A, Tier B y Tier C.",
+        "Niers, Tier 1, Tier 2 y Tier 3.",
+        "Tiers, Tier 1, Tier 2 y Tier 3."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Las conexiones utilizadas para el intercambio de tráfico sin coste entre dos operadores se denomina:",
+      "opciones": [
+        "Conexiones de tránsito.",
+        "Conexiones de peering.",
+        "Conexiones de Puentes.",
+        "Conexiones de nooding."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "Completa la frase. Los protocolos de Internet se modelan en capas:",
+      "opciones": [
+        "3, Aplicación, Transporte, Enlace.",
+        "3, Aplicación, Transporte, Red.",
+        "4, Aplicación, Transporte, Red, Enlace.",
+        "4, Aplicación, Transporte, Red, Física."
+      ],
+      "correcta": 2
+    }
+  ]
+}

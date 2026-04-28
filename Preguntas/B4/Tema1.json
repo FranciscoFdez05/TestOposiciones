@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 1 - Sistemas Operativos y Memoria",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Un sistema operativo es:",
+      "opciones": [
+        "El software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes.",
+        "El software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee procedimientos a los programas de aplicación de software, ejecutándose en modo privilegiado respecto de los restantes.",
+        "La respuesta a) y b) son correctas.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cuál es el nombre del chip que es obligatorio para poder instalar Windows 11?",
+      "opciones": [
+        "TMP.",
+        "TCM.",
+        "TPM.",
+        "TMC."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "Es incorrecto llamar al sistema operativo núcleo:",
+      "opciones": [
+        "Si el núcleo es monolítico.",
+        "Si el núcleo no es monolítico.",
+        "Si el kernel es direccional.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuál de las siguientes afirmaciones no está relacionada con la definición de proceso?",
+      "opciones": [
+        "Un programa en ejecución que necesita tiempo de CPU para realizar su tarea.",
+        "Un programa en ejecución que necesita memoria para realizar su tarea.",
+        "Un programa en ejecución que necesita dispositivos de E/S para realizar su tarea.",
+        "Un programa en ejecución que necesita de dispositivos de almacenamiento primario."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "La memoria es una gran tabla de:",
+      "opciones": [
+        "Palabras que se referencian cada una mediante una dirección única.",
+        "Celdas que se referencian cada una mediante una dirección única.",
+        "Bytes que se referencian cada uno mediante una dirección única.",
+        "Las respuestas a) y c) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 6,
+      "enunciado": "La memoria principal es:",
+      "opciones": [
+        "De almacenamiento secundario y es volátil.",
+        "De almacenamiento primario y es no volátil.",
+        "De almacenamiento secundario y es no volátil.",
+        "De almacenamiento primario y es volátil."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Cuál de los siguientes no es un sistema de archivo?",
+      "opciones": [
+        "ext4.",
+        "NTFS.",
+        "XFS.",
+        "XTF."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "El sistema operativo administra:",
+      "opciones": [
+        "La unidad central de procesamiento (donde está alojado el microprocesador).",
+        "Los dispositivos de entrada y salida.",
+        "La memoria principal (o de acceso directo).",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "El cargador de programas es la parte del sistema operativo cuya función es:",
+      "opciones": [
+        "Cargar programas en memoria desde los ejecutables.",
+        "Cargar hardware en memoria desde los ejecutables.",
+        "Cargar programas en el Sistema Operativo desde los ejecutables.",
+        "Todas son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "En los sistemas Unix, el cargador es el manejador para la llamada del sistema:",
+      "opciones": [
+        "exevce().",
+        "execve().",
+        "execev().",
+        "exevec()."
+      ],
+      "correcta": 1
+    }
+  ]
+}

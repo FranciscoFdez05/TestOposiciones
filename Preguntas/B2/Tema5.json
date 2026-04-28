@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque II - Test 5 - Bases de Datos y SGBD",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Dentro de los distintos niveles de abstracción necesarios para modelar la base de datos, podemos encontrar:",
+      "opciones": [
+        "Nivel Hardware.",
+        "Nivel Lógico.",
+        "Nivel Software.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Hay dos tipos de propiedades de los elementos en el modelo conceptual:",
+      "opciones": [
+        "Estáticas y dinámicas.",
+        "Hardware y Software.",
+        "De alto nivel y de bajo nivel.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "El atributo único para cada ficha en el modelo entidad-relación se denomina:",
+      "opciones": [
+        "Registro.",
+        "Campo.",
+        "Clave.",
+        "Dominio."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "Dentro de los tipos de relación podemos encontrar:",
+      "opciones": [
+        "Uno a uno.",
+        "Uno a muchos.",
+        "Muchos a muchos.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "Las restricciones propias del modelo elegido se denominan:",
+      "opciones": [
+        "Coherentes.",
+        "Inherentes.",
+        "Lógicas.",
+        "Semánticas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "Indica cuál de las siguientes reglas forma parte de las indicadas por F. Codd para considerar un SGBD relacional:",
+      "opciones": [
+        "Inserción.",
+        "Ubicación.",
+        "Restricción.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Cuál de los siguientes SGBD no es relacional?",
+      "opciones": [
+        "MySQL.",
+        "Oracle.",
+        "Paradox.",
+        "VisualFoxPro."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "El lenguaje en SGBD orientado a objetos utilizado para especificar las necesidades y propiedades de los objetos se denomina:",
+      "opciones": [
+        "MDB.",
+        "ODB.",
+        "ODL.",
+        "LOD."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "La gran diferencia entre los lenguajes de programación orientados a objetos y los SGBD orientados a objetos es:",
+      "opciones": [
+        "La existencia de clases.",
+        "La persistencia.",
+        "La alienación.",
+        "La exactitud."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "Para presentar los datos e imprimirlos se suelen utilizar:",
+      "opciones": [
+        "Consultas.",
+        "Informes.",
+        "Registros.",
+        "Formularios."
+      ],
+      "correcta": 1
+    }
+  ]
+}

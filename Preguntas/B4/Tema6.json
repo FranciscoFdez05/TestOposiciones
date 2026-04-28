@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 6 - Telecomunicaciones y Transmisión de Datos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "La red SARA:",
+      "opciones": [
+        "Es una red de seguridad para grandes corporaciones privadas y públicas.",
+        "Es una red de telecomunicaciones que interconecta a las Administraciones Públicas de ámbito nacional.",
+        "Facilita el intercambio seguro de información y el acceso a servicios compartidos de todas las Administraciones Públicas.",
+        "Es una red de telecomunicaciones que interconecta a las Administraciones Públicas de ámbito autonómico."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "RTPC:",
+      "opciones": [
+        "Es un sistema de control de emisión para terminales tipo TP.",
+        "Es un protocolo a nivel de transporte para el control en tiempo real de transferencias en streaming.",
+        "Es un protocolo de enrutamiento a nivel de red y sesión.",
+        "Es un tipo de transmisión de datos por red telefónica."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "El efecto que debido a la falta de linealidad de los componentes o circuitos de los equipos de comunicaciones a partir de determinados valores de frecuencia llega a producir distorsiones o deformaciones en la señal es:",
+      "opciones": [
+        "La intermodulación.",
+        "La reflexión.",
+        "La interferencia.",
+        "La difracción."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "El Instituto Europeo de Normas de Telecomunicación es:",
+      "opciones": [
+        "IETF.",
+        "CEN.",
+        "ECMA.",
+        "ETSI."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "Los tonos de prueba senoidales para circuitos de telecomunicaciones y las señales de sincronismo son señales:",
+      "opciones": [
+        "Periódicas.",
+        "No periódicas.",
+        "Discretas.",
+        "Digitales."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "El teorema de Nyquist:",
+      "opciones": [
+        "Relaciona la velocidad de transmisión con el ancho de banda y la relación señal/ruido.",
+        "Relaciona la velocidad de transmisión con el ancho de banda y el n.º de niveles de una señal digital.",
+        "Establece que la frecuencia de muestreo tiene que ser al menos el doble que la señal a muestrear.",
+        "Las respuestas b) y c) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "De entre los siguientes equipos de red, ¿cuál se puede utilizar para interconectar equipos dentro de una red de área local?",
+      "opciones": [
+        "Router.",
+        "Access Point Inalámbrico.",
+        "Módem.",
+        "Transceptor de medios."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "Tiene caracteres de control para transmisiones en modo carácter el código:",
+      "opciones": [
+        "Johnson.",
+        "ASCII.",
+        "EBCDIC.",
+        "Las respuestas b) y c) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Un error de 2 bits en un bloque de información de una trama es detectable por:",
+      "opciones": [
+        "Un código con distancia 2 y corregible por un código de distancia 6.",
+        "Un código con distancia 3 y corregible por un código de distancia 5.",
+        "Un código con distancia 5 y corregible por un código de distancia 2.",
+        "Un código con distancia 4 y corregible por un código de distancia 5."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "Son compresores sin pérdidas:",
+      "opciones": [
+        "Los basados en comprimir la redundancia temporal: \"lentitud\" de variación en la imagen/señal o bits repetitivos en ficheros gráficos y de vídeo.",
+        "Los estadísticos y los basados en diccionarios como por ejemplo MPEG y JPEG.",
+        "RAR, ZIP, ARJ, PNG y FLAC.",
+        "MP3 y MP4."
+      ],
+      "correcta": 2
+    }
+  ]
+}

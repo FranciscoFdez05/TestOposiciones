@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 5 - Seguridad Informática y Criptografía",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "La Asociación de profesionales de tecnología de información (AITP), define los delitos informáticos como:",
+      "opciones": [
+        "El uso, acceso, modificación y destrucción no autorizados de hardware, software, datos o recursos de red.",
+        "El uso o conspiración para usar recursos de cómputo o red para obtener información o propiedad tangible de manera ilegal.",
+        "La copia autorizada de software.",
+        "Las respuestas a) y b) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 2,
+      "enunciado": "\"La autoridad, funcionario público o agente de estos que, mediando causa por delito, interceptare las telecomunicaciones o utilizare artificios técnicos de escuchas, transmisión, grabación o reproducción del sonido, de la imagen o de cualquier otra señal de comunicación, con violación de las garantías constitucionales o legales...\" ¿A qué normativa pertenece?",
+      "opciones": [
+        "Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.",
+        "Artículo 536 Código Penal Español referentes a Delitos Informáticos.",
+        "Ley Orgánica 10/1995, de 23 de noviembre del Código Penal (versión vigente).",
+        "Las respuestas b) y c) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "No son bienes informáticos críticos:",
+      "opciones": [
+        "Programas de aplicación.",
+        "Soportes de información.",
+        "Las personas de la organización.",
+        "Utilidades de configuración."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "Un programa que se replica enviando copias de sí mismo a través de la red, correo electrónico o aprovechando errores de seguridad, y que puede causar ataques de denegación de servicio, es:",
+      "opciones": [
+        "Gusano.",
+        "Troyano.",
+        "Virus Macro.",
+        "Rogue."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "En el ámbito de la seguridad de los sistemas de Información, un token físico de seguridad es:",
+      "opciones": [
+        "Una clave compartida por dos entidades emisor y receptor.",
+        "Un dispositivo electrónico que se le da a un usuario autorizado de un servicio computarizado para facilitar el proceso de autenticación.",
+        "Un tipo de Impresora específico que controla los accesos de usuarios mediante una white list.",
+        "Un tipo de Impresora específico que controla los accesos de usuarios mediante una black list."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "Señala cuál de las siguientes afirmaciones es cierta referente al algoritmo criptográfico IDEA:",
+      "opciones": [
+        "Opera con bloques de 256 bits y claves de 128 bits.",
+        "Opera con bloques de 256 bytes, con algoritmo para descifrar.",
+        "Opera con bloques de 64 bits y claves de 128 bits. Mismo algoritmo para cifrar y descifrar.",
+        "Opera con bloques de 64 bytes y claves de 1024 bits con algoritmo diferente para cifrar y descifrar."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "Indica, de las siguientes afirmaciones sobre algoritmos de cifrado, cuál es verdadera:",
+      "opciones": [
+        "IDEA es simétrico.",
+        "DSA es simétrico.",
+        "ECIES es simétrico.",
+        "AES es asimétrico."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Cuál de los siguientes es un código malicioso para secuestrar datos, en el que el atacante encripta los datos de la víctima y exige un pago?",
+      "opciones": [
+        "Purple.",
+        "Pharming.",
+        "Ransomware.",
+        "Spoofing."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Cuál de las siguientes herramientas amplía la seguridad de aplicaciones web y móviles y refuerza la conformidad con la normativa?",
+      "opciones": [
+        "HP LoadRunner.",
+        "IBM Security AppScan.",
+        "Hitachi ID Systems.",
+        "Check Point Software."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Qué no es cierto en el proceso de firma digital?",
+      "opciones": [
+        "El mensaje se transforma en resumen mediante la función resumen y se firma con la clave privada.",
+        "El emisor envía mensaje + apéndice.",
+        "El apéndice recibido genera el resumen real utilizando la función de resumen.",
+        "La firma se verifica si el resumen recibido es igual al resumen real."
+      ],
+      "correcta": 2
+    }
+  ]
+}

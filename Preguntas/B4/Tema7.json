@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 7 - Modelos OSI, TCP/IP y Direccionamiento IP",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Las pilas o suite (o capas) de protocolos no son más que una jerarquía de pequeños protocolos que:",
+      "opciones": [
+        "Trabajan juntas para llevar a cabo la gestión de los datos de un nodo a otro de la red.",
+        "Trabajan juntas para llevar a cabo la eliminación de los datos de un nodo a otro de la red.",
+        "Trabajan juntas para llevar a cabo la transmisión de los datos de un nodo a otro de la red.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "Las dos únicas capas del modelo con las que, de hecho, interactúa el usuario son:",
+      "opciones": [
+        "La capa Física y la capa de Aplicación.",
+        "La capa Sesión y la capa de Transporte.",
+        "La capa Física y la capa de Transporte.",
+        "La capa Sesión y la capa de Aplicación."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "El orden ascendente que siguen las capas del modelo OSI es:",
+      "opciones": [
+        "Física, Red, Enlace, Transporte, Sesión, Presentación, Aplicación.",
+        "Física, Enlace, Red, Transporte, Sesión, Presentación, Aplicación.",
+        "Física, Enlace, Transporte, Red, Sesión, Aplicación, Presentación.",
+        "Física, Enlace, Red, Transporte, Sesión, Aplicación, Presentación."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "Completa el texto. El Internetwork Packet Exchange Protocol o Protocolo de Intercambio de Paquetes entre Redes es un protocolo de __________ sin conexión que gestiona el direccionamiento y encaminamiento de los datos en la red.",
+      "opciones": [
+        "Sesión.",
+        "Red.",
+        "Transporte.",
+        "Aplicación."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "A medida que los datos van pasando por cada una de las capas, el encabezado pertinente se va suprimiendo de los datos. Cuando los datos finalmente alcanzan la capa de __________, el destinatario puede utilizar su cliente de correo electrónico para leer el mensaje.",
+      "opciones": [
+        "Enlace.",
+        "Red.",
+        "Aplicación.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "enunciado": "Los protocolos FTP, DHCP, HTTP y HTTPS pertenecen a la capa:",
+      "opciones": [
+        "Enlace.",
+        "Red.",
+        "Aplicación.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "Si tenemos una red 172.30.23.0/20, ¿a qué clase de red pertenece?",
+      "opciones": [
+        "Clase A.",
+        "Clase B.",
+        "Clase C.",
+        "Clase D."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Te piden saber cuántos host están disponibles para su uso en la red anterior 172.30.23.0/20:",
+      "opciones": [
+        "1022.",
+        "2048.",
+        "2046.",
+        "4094."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Cuál es la dirección de broadcast de la red anterior 172.30.23.0/20?",
+      "opciones": [
+        "172.30.31.255.",
+        "172.30.255.255.",
+        "172.30.23.255.",
+        "172.30.14.255."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "Los protocolos UDP y TCP pertenecen a la capa:",
+      "opciones": [
+        "Enlace.",
+        "Transporte.",
+        "Aplicación.",
+        "Red."
+      ],
+      "correcta": 1
+    }
+  ]
+}

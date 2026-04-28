@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque II - Test 3 - TAD, Estructuras de Datos y Ficheros",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "En referencia a los tipos abstractos de datos TAD se podría decir que:",
+      "opciones": [
+        "Son un tipo más que no aporta nada especial.",
+        "Son un modelo matemático.",
+        "Independizan la forma de resolver problemas de la implementación.",
+        "Las dos anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 2,
+      "enunciado": "La abstracción desde el punto de vista de programación se puede ver desde los puntos de vista:",
+      "opciones": [
+        "Funcional y de datos.",
+        "De datos y representación.",
+        "Funcional y representación.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "Una de las tres operaciones principales que podemos hacer con los TAD es:",
+      "opciones": [
+        "Creación.",
+        "Transformación.",
+        "Análisis.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuál de las siguientes estructuras de datos es no ordenada?",
+      "opciones": [
+        "Diccionario.",
+        "Listas.",
+        "Mapa.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "Las listas en las que el último elemento que entra es el primero que sale se denominan:",
+      "opciones": [
+        "LIFO.",
+        "FIFO.",
+        "FILO.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "El número de hijos que tiene un nodo se denomina:",
+      "opciones": [
+        "Grado del nodo.",
+        "Grado del árbol.",
+        "Nivel del nodo.",
+        "Nivel del árbol."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Si {0,1,2,3,4,5,6,7} representa el recorrido de un árbol en preorden, indica cuál es la raíz:",
+      "opciones": [
+        "7.",
+        "3.",
+        "1.",
+        "0."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "El árbol balanceado es aquel en el que:",
+      "opciones": [
+        "Cada nodo tiene un máximo de dos hijos.",
+        "Entre todos sus nodos hojas no hay una diferencia mayor de un nivel.",
+        "Tiene un grado máximo de 4.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 9,
+      "enunciado": "Una de las estructuras tipo para albergar ficheros es:",
+      "opciones": [
+        "Rendering.",
+        "Blocking.",
+        "Hashing.",
+        "Changing."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "La unidad de espacio más pequeña que se puede asignar a un fichero se denomina:",
+      "opciones": [
+        "Bloque.",
+        "Clúster.",
+        "Sector.",
+        "Pista."
+      ],
+      "correcta": 1
+    }
+  ]
+}

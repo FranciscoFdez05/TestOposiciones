@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque II - Test 2 - Hardware y Componentes de PC",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "El lugar donde se interconectan los elementos básicos de un PC se denomina:",
+      "opciones": [
+        "Microprocesador.",
+        "Memoria.",
+        "Placa base.",
+        "Tarjeta gráfica."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "El encargado de coordinar entre otras cosas las velocidades de los dispositivos se denomina:",
+      "opciones": [
+        "Microprocesador.",
+        "Chipset.",
+        "ROM.",
+        "RAM."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "El estándar de conexión actual de los discos duros internos se denomina:",
+      "opciones": [
+        "USB.",
+        "HDMI.",
+        "SATA.",
+        "IDE."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "El RAID en que uno de los discos es espejo del otro se denomina:",
+      "opciones": [
+        "RAID 0.",
+        "RAID 1.",
+        "RAID 2.",
+        "RAID 3."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 5,
+      "enunciado": "El RAID 01 se podría decir que es:",
+      "opciones": [
+        "Un espejo de divisiones.",
+        "Una división de espejos.",
+        "Una división en bytes.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "Una de las grandes ventajas de los SSD puede ser:",
+      "opciones": [
+        "Mejora la velocidad.",
+        "No disponen de partes mecánicas.",
+        "Las dos anteriores son correctas.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "El VGA apareció en:",
+      "opciones": [
+        "1978.",
+        "1988.",
+        "1998.",
+        "2008."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Se podría decir que un tipo de escáner es:",
+      "opciones": [
+        "El escáner de cama plana.",
+        "El escáner de tambor.",
+        "El escáner de mano.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "El interface Thunderbolt 3 puede llegar a velocidades máximas de:",
+      "opciones": [
+        "10 GB/s.",
+        "20 GB/s.",
+        "30 GB/s.",
+        "40 GB/s."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "La frecuencia de uso del Bluetooth es de:",
+      "opciones": [
+        "5 GHz.",
+        "2,4 GHz.",
+        "5 MHz.",
+        "2,4 MHz."
+      ],
+      "correcta": 1
+    }
+  ]
+}

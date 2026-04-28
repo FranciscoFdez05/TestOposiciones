@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque III - Test 8 - Accesibilidad, Usabilidad y Diseño Universal",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "El propósito del diseño universal es:",
+      "opciones": [
+        "Complicar la realización de las tareas cotidianas mediante la construcción de productos, servicios y entornos más sencillos de usar por todas las personas.",
+        "Simplificar la realización de las tareas cotidianas mediante la construcción de productos, servicios y entornos más sencillos de usar por todas las personas.",
+        "Perjudicar a todas las personas de todas las edades y habilidades.",
+        "Limitar el acceso a la información."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "La usabilidad se refiere a:",
+      "opciones": [
+        "El grado en que un producto puede ser usado por usuarios específicos para lograr objetivos específicos con efectividad, eficiencia y satisfacción.",
+        "La facilidad con la que un sistema puede ser aprendido y utilizado por un grupo definido de usuarios.",
+        "El conjunto de características que permiten que una interfaz sea comprensible e intuitiva.",
+        "La calidad estética, perceptiva y funcional de un sistema."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "El concepto de accesibilidad tecnológica supone entender que las personas utilizan la red de modos diferentes. Estas diferencias pueden manifestarse en:",
+      "opciones": [
+        "El equipo (hardware) y los programas (software) que utilicen.",
+        "El navegador con el cual accedan a Internet.",
+        "Los diferentes dispositivos de entrada y salida de la información.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "La accesibilidad significa proporcionar flexibilidad para acomodarse a las necesidades de cada usuario y sus preferencias.",
+      "opciones": [
+        "Falso.",
+        "Depende del usuario.",
+        "Verdadero.",
+        "Depende de las preferencias."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Qué significa WAI?",
+      "opciones": [
+        "Acrónimo en inglés de Web Access Initiative.",
+        "Acrónimo en inglés de Web Accessibility Initiative.",
+        "Acrónimo en inglés de Web Accessibility Initial.",
+        "Acrónimo en inglés de Work Accessibility Initiative."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Qué objetivo tiene la WAI?",
+      "opciones": [
+        "Facilitar el acceso de las personas con diversidad funcional, desarrollando pautas de accesibilidad, mejorando las herramientas para la evaluación y reparación de accesibilidad web.",
+        "Dificultar el acceso de las personas con diversidad funcional, desarrollando pautas de no accesibilidad, dificultando las herramientas para la evaluación y reparación de accesibilidad web.",
+        "Reducir el acceso de las personas con diversidad funcional, reduciendo pautas de accesibilidad.",
+        "Aumentar el número de personas con diversidad funcional."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Para que un contenido web sea accesible ha de ser:",
+      "opciones": [
+        "Imperceptible, comprensible, operable y robusto.",
+        "Perceptible, comprensible, operable y débil.",
+        "Perceptible, comprensible, operable y robusto.",
+        "Perceptible, incomprensible, operable y robusto."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Se puede considerar el diseño universal como un proceso no proactivo?",
+      "opciones": [
+        "Sí.",
+        "Depende del proceso.",
+        "Depende del diseño.",
+        "No."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Indica la opción que no sería un principio del diseño universal:",
+      "opciones": [
+        "Equidad en el uso.",
+        "Flexibilidad de uso.",
+        "Minimización de la carga cognitiva.",
+        "Tolerancia al error."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "El currículum flexible:",
+      "opciones": [
+        "Se adapta a un rango de habilidades y preferencias.",
+        "No considera las diversidades funcionales sensoriales.",
+        "No percibe los ritmos de aprendizaje.",
+        "Todas las respuestas anteriores son falsas."
+      ],
+      "correcta": 0
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 3 - Correo Electrónico y Protocolos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "El Mail Transfer Agent (MTA) tiene varias formas de comunicarse con otros servidores de correo, ¿cuál de las siguientes no es correcta?",
+      "opciones": [
+        "Recibe los mensajes desde otro MTA. Actúa como \"servidor\" de otros servidores.",
+        "Envía los mensajes hacia otro MTA. Actúa como un \"cliente\" de otros servidores.",
+        "Actúa como intermediario entre un Mail Emission Agent y otro МТА.",
+        "Actúa como intermediario entre un Mail Submission Agent y otro МТА."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "El Protocolo PОРЗ:",
+      "opciones": [
+        "Es un protocolo de nivel de aplicación en el Modelo OSI.",
+        "Es un protocolo de nivel de transporte en el Modelo OSI.",
+        "Es un protocolo de nivel físico en el Modelo OSI.",
+        "Es un protocolo de nivel de transmisión en el Modelo OSI."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "En criptografía, MD5 es un algoritmo de reducción criptográfico de:",
+      "opciones": [
+        "128 bits.",
+        "256 bits.",
+        "64 bits.",
+        "32 bits."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "El Protocolo SMTР:",
+      "opciones": [
+        "Es el protocolo estándar que permite la transferencia de metadatos de un servidor a otro mediante una conexión punto a punto.",
+        "Es el protocolo RCP que permite la transferencia de correo de un servidor a otro mediante una conexión punto a punto.",
+        "Es el protocolo estándar que permite la transferencia de correo de un servidor a otro mediante una conexión punto a punto.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "El Protocolo SMTP, trabaja de manera predeterminada en el puerto:",
+      "opciones": [
+        "25.",
+        "125.",
+        "33.",
+        "220."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "El comando \"EXPN\" del Protocolo SMTP:",
+      "opciones": [
+        "Solicita al servidor que intercambien los papeles.",
+        "Se emplea para reiniciar los temporizadores.",
+        "Solicita al servidor la confirmación del argumento.",
+        "El mensaje se entrega a una terminal o a un buzón."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "El Protocolo PОР:",
+      "opciones": [
+        "Permite recoger el correo electrónico en un servidor remoto.",
+        "Permite entregar el correo electrónico en un servidor remoto.",
+        "Permite redireccionar el correo electrónico en un servidor remoto.",
+        "Todas son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "El Protocolo POP2 trabajaba con el puerto:",
+      "opciones": [
+        "33.",
+        "25.",
+        "110.",
+        "109."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "El comando \"NOOP\" del Protocolo SMTР:",
+      "opciones": [
+        "Solicita al servidor que intercambien los papeles.",
+        "Se emplea para reiniciar los temporizadores.",
+        "Solicita al servidor la confirmación del argumento.",
+        "El mensaje se entrega a una terminal o a un buzón."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "Cuál de las siguientes no es una solución de correo que incluye un MTА:",
+      "opciones": [
+        "Sendmail.",
+        "Lotus Notes.",
+        "Microsoft Project.",
+        "Mercury Mail Transport System."
+      ],
+      "correcta": 2
+    }
+  ]
+}

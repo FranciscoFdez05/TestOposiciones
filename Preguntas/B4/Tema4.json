@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 4 - Redes, Almacenamiento y Gestión de Sistemas",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Qué es un NOS?",
+      "opciones": [
+        "Una aplicación.",
+        "Una aplicación web.",
+        "Un sistema operativo.",
+        "Un dispositivo de red."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "Señala la función que no pertenece a las funciones de un administrador de red:",
+      "opciones": [
+        "Diagnóstico de los problemas de la red y evaluar las posibles mejoras.",
+        "Mantenimiento de la red.",
+        "Monitorización y control del tráfico de la red.",
+        "Uso de las distintas aplicaciones que están instaladas en una estación cliente."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "SNMP es un protocolo que pertenece a:",
+      "opciones": [
+        "Gestión de usuarios.",
+        "Gestión de recursos.",
+        "Gestión de red.",
+        "Gestión de servicios."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "En la gestión de usuarios, las ACL (Access Control List) pertenecen a:",
+      "opciones": [
+        "Plataforma Windows.",
+        "Plataforma UNIХ.",
+        "Plataforma MAC.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "Si un fichero tiene los siguientes permisos: -rw-r--r-- ¿Quién tiene permiso de escritura?",
+      "opciones": [
+        "El propietario.",
+        "El grupо.",
+        "El resto de usuarios.",
+        "Nadie tiene permiso de escritura."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Qué servicio en sistemas UNIX permite crear usuarios en un servidor y validar el acceso desde cualquier estación de la red?",
+      "opciones": [
+        "NFS",
+        "NSF",
+        "NIS",
+        "SIN"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Qué sistema de almacenamiento hace uso de la tecnología Fibre Channel?",
+      "opciones": [
+        "Almacenamiento de conexión directa (DAS).",
+        "Almacenamiento centralizado.",
+        "Almacenamiento de conexión a red (NAS).",
+        "Redes de área de almacenamiento (SAN)."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "¿A qué implementación de RAID pertenece un sistema que combina paridad con distribución de datos entre discos?",
+      "opciones": [
+        "RAID 0",
+        "RAID 1",
+        "RAID 5",
+        "RAID 6"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "Si en un servidor se detecta una paginación excesiva, indica un problema de:",
+      "opciones": [
+        "Una elevada carga de cpu.",
+        "Escasez de memoria central.",
+        "Interfaces de red con escasa capacidad de transferencia de datos.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "Si el procesador se encuentra frecuentemente esperando operaciones de E/S (entrada/salida), el problema está relacionado con:",
+      "opciones": [
+        "Carga elevada de CPU.",
+        "Escasez de memoria.",
+        "Lento acceso al almacenamiento o disco.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "correcta": 2
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "tema": "Bloque IV - Test 10 - Tipos de Redes y Topologías",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cuál de las siguientes no es un tipo de Red?",
+      "opciones": [
+        "WAN.",
+        "SAN.",
+        "CAN.",
+        "PAN."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Completa el texto. Una __________ es una red de computadoras que conecta redes de área local a través de un área geográfica limitada. Puede ser considerada como una red de área metropolitana que se aplica específicamente a un ambiente de menor tamaño.",
+      "opciones": [
+        "WAN.",
+        "CAN.",
+        "PAN.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuál de las siguientes no es un tipo de redes LAN?",
+      "opciones": [
+        "Red LAN Híbrida.",
+        "WLAN.",
+        "VLAN.",
+        "HLAN."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "Los componentes básicos para poder montar una red local son:",
+      "opciones": [
+        "Servidor, Estaciones de trabajo, Tarjetas de conexión de red, Hub.",
+        "Servidor, Router, Tarjetas de conexión de red, Cableado.",
+        "Servidor, Router, Estaciones de trabajo, Tarjetas de conexión de red.",
+        "Servidor, Estaciones de trabajo, Tarjetas de conexión de red, Cableado."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Cuál de los siguientes no es un tipo de cableado de red?",
+      "opciones": [
+        "Par trenzado.",
+        "Cable coaxial.",
+        "Fibra óptica.",
+        "Par de transmisión."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 6,
+      "enunciado": "La topología de red se define como:",
+      "opciones": [
+        "El mapa físico de una red para intercambiar datos. En otras palabras, es la forma en que está diseñada la red.",
+        "El mapa lógico de una red para intercambiar datos. En otras palabras, es la forma en que está diseñada la red.",
+        "El mapa gráfico de una red para intercambiar datos.",
+        "Las respuestas a) y b) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Cuál de las siguientes pertenece a la topología de red?",
+      "opciones": [
+        "La distancia entre los nodos.",
+        "Las tasas de transmisión.",
+        "Los tipos de señales.",
+        "La configuración de las conexiones entre nodos."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "Cuando decimos que la fiabilidad de este tipo de red es que el malfuncionamiento de un ordenador no afecta en nada a la red entera, puesto que cada ordenador se conecta independientemente del hub, y el costo del cableado puede llegar a ser muy alto, nos referimos a:",
+      "opciones": [
+        "Red en Estrella.",
+        "Red en Anillo.",
+        "Red en Bus.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 9,
+      "enunciado": "\"Interconectan segmentos de red, haciendo el cambio de frames entre las redes de acuerdo con una tabla de direcciones que dice en qué segmento está ubicada una dirección MAC\"; ¿a cuál de los siguientes conceptos nos estamos refiriendo?",
+      "opciones": [
+        "Repetidor.",
+        "Hub.",
+        "Bridge.",
+        "Switch."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "Es un dispositivo electrónico que conecta dos segmentos de una misma red, transfiriendo el tráfico de uno a otro extremo, bien por cable o inalámbrico. Ayuda a superar las limitaciones de longitud del cableado. Hablamos de un:",
+      "opciones": [
+        "Hub.",
+        "Repetidor.",
+        "Bridge.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    }
+  ]
+}
