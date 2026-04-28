@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 2 - Cortes Generales y Defensor del Pueblo",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "El nombramiento del Defensor del Pueblo se efectuará por un período de:",
+      "opciones": [
+        "7 años.",
+        "9 años.",
+        "5 años.",
+        "3 años."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "El Defensor del Pueblo se configura constitucionalmente como alto comisionado:",
+      "opciones": [
+        "Del pueblo.",
+        "De las Cortes Generales.",
+        "Del Poder Judicial.",
+        "Del Gobierno."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "¿De quién recibe órdenes el Defensor del Pueblo?",
+      "opciones": [
+        "De las Cortes Generales.",
+        "No está sometido a mandato imperativo.",
+        "De los Tribunales.",
+        "Del Gobierno."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "Las Cámaras se reúnen en sesiones:",
+      "opciones": [
+        "Ordinarias y extraordinarias.",
+        "Simples o conjuntas.",
+        "Ordinarias, extraordinarias y conjuntas.",
+        "Ordinarias, extraordinarias y de urgencia."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "Para adoptar acuerdos, las Cámaras deben estar reunidas reglamentariamente y con asistencia de la mayoría de sus miembros. Dichos acuerdos, para ser válidos, deberán ser aprobados:",
+      "opciones": [
+        "Por la mayoría de los miembros presentes.",
+        "Por mayoría absoluta de sus miembros.",
+        "Por los 3/5 de cada una de las Cámaras.",
+        "Por los 2/3 del conjunto de las Cámaras."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "¿En qué plazo deberá ser convocado el Congreso electo tras la celebración de elecciones?",
+      "opciones": [
+        "Entre los 30 y 60 días siguientes.",
+        "Dentro de los 25 días siguientes.",
+        "Entre los 10 y 30 días siguientes.",
+        "Dentro de los 30 días siguientes."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 7,
+      "enunciado": "En las causas contra Diputados y Senadores será competente:",
+      "opciones": [
+        "La Sala de lo Civil del Tribunal Supremo.",
+        "La Sala de lo Social del Tribunal Supremo.",
+        "La Sala de lo Contencioso-Administrativo del Tribunal Supremo.",
+        "La Sala de lo Penal del Tribunal Supremo."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "Las Diputaciones Permanentes estarán presididas por:",
+      "opciones": [
+        "El diputado de mayor edad.",
+        "El diputado del grupo parlamentario más numeroso.",
+        "El Presidente del Gobierno.",
+        "El Presidente de la Cámara respectiva."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Cuántos Senadores corresponderán a Menorca?",
+      "opciones": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "Las sesiones conjuntas del Senado y del Congreso serán presididas:",
+      "opciones": [
+        "Por el Rey.",
+        "Por el Presidente del Gobierno.",
+        "Por el Presidente del Congreso.",
+        "Por el Presidente del Senado."
+      ],
+      "correcta": 2
+    }
+  ]
+}

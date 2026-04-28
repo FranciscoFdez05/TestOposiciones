@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 1 - Constitución Española",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿En qué se fundamenta la Constitución Española?",
+      "opciones": [
+        "En un Estado social y democrático de Derecho.",
+        "En la indisoluble unidad de la Nación española.",
+        "En la independencia de los poderes del Estado.",
+        "En la organización territorial del Estado."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Según el artículo 3 de la CE, el castellano es la lengua oficial del Estado y todos los españoles:",
+      "opciones": [
+        "Tienen el deber de usar y el derecho de conocer el castellano.",
+        "Tienen el derecho y el deber de conocer el castellano.",
+        "Tienen el deber de conocer y el derecho de usar el castellano.",
+        "Tienen el derecho de conocer y usar el castellano."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "La Constitución Española reconoce y garantiza el derecho a la autonomía:",
+      "opciones": [
+        "De las nacionalidades que la integran.",
+        "De las regiones que la integran.",
+        "De las Comunidades Autónomas que la integran.",
+        "De las nacionalidades y regiones que la integran."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "El Preámbulo de la Constitución:",
+      "opciones": [
+        "Tiene en sí carácter de norma jurídica.",
+        "Es una declaración de intenciones, destinada a interpretar lo que se quiere alcanzar con el contenido normativo de la Constitución.",
+        "Se trata de un texto sin fuerza jurídica de obligar.",
+        "Las respuestas b) y c) son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "Señala la respuesta correcta, respecto de la aprobación, ratificación y publicación de la Constitución Española:",
+      "opciones": [
+        "Aprobada por las Cortes el 31 de octubre de 1978, ratificada por el pueblo en referéndum el 6 de diciembre de 1978 y publicada el 29 de diciembre de 1978.",
+        "Aprobada por las Cortes el 30 de octubre de 1978, ratificada por el pueblo en referéndum el 16 de diciembre de 1978 y publicada el 27 de diciembre de 1978.",
+        "Aprobada por las Cortes el 31 de octubre de 1978, ratificada por el pueblo en referéndum el 16 de diciembre de 1978 y publicada el 29 de diciembre de 1978.",
+        "Aprobada por las Cortes el 10 de octubre de 1978, ratificada por el pueblo en referéndum el 26 de diciembre de 1978 y publicada el 30 de diciembre de 1978."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "¿En qué parte de la Carta Magna se establece la exposición de motivos que impulsan la norma constitucional y los objetivos que con ella se pretenden alcanzar?",
+      "opciones": [
+        "En el Título Preliminar.",
+        "En el Preámbulo.",
+        "En el Título I.",
+        "En el Título II."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 7,
+      "enunciado": "La Constitución Española fue sancionada por:",
+      "opciones": [
+        "El Rey.",
+        "El Presidente del Congreso.",
+        "Las Cortes Generales.",
+        "El Presidente del Gobierno."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Cuáles de los siguientes españoles de origen pueden ser privados de su nacionalidad?",
+      "opciones": [
+        "Exclusivamente los miembros de grupos terroristas.",
+        "Los miembros de grupos terroristas y los que atenten contra el Rey u otro miembro de la Casa Real.",
+        "Los que atenten contra un miembro de la Familia Real o del Gobierno de la Nación.",
+        "Ningún español de origen podrá ser privado de su nacionalidad."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Según la CE son fundamentos del orden político y la paz social:",
+      "opciones": [
+        "La dignidad de la persona, los derechos violables que les son inherentes y el respeto a la ley.",
+        "La dignidad de la persona, el desarrollo limitado de la personalidad y el respeto a la ley.",
+        "El respeto a la ley, a los reglamentos administrativos y demás disposiciones legales.",
+        "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de su personalidad, el respeto a la ley y a los derechos de los demás."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Cuál de los siguientes es considerado por la CE como uno de los valores superiores del ordenamiento jurídico?",
+      "opciones": [
+        "La jerarquía normativa.",
+        "El pluralismo político.",
+        "La publicidad normativa.",
+        "La equidad."
+      ],
+      "correcta": 1
+    }
+  ]
+}

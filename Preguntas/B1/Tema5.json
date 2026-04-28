@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 5 - Igualdad efectiva entre mujeres y hombres",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Qué artículo de la Constitución española consagra la igualdad de todos los españoles ante la ley?",
+      "opciones": [
+        "El artículo 8.",
+        "El artículo 14.",
+        "El artículo 21.",
+        "El artículo 27."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Según su artículo 1, la LO 3/2007 tiene por objeto hacer efectivo el derecho de:",
+      "opciones": [
+        "Conciliación de la vida laboral y familiar de mujeres y hombres.",
+        "Igualdad de trato y de oportunidades entre mujeres y hombres.",
+        "Participación en los asuntos públicos en igualdad de condiciones.",
+        "No discriminación por razón de sexo."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "Las obligaciones establecidas en la LO 3/2007 son de aplicación:",
+      "opciones": [
+        "A toda persona, física o jurídica, que se encuentre o actúe en territorio español, cualquiera que fuese su nacionalidad, domicilio o residencia.",
+        "A todos los ciudadanos españoles, ya sea en territorio español o territorio de cualquier país extranjero.",
+        "A toda persona, física o jurídica, que se encuentre o actúe en territorio español, con nacionalidad española.",
+        "A toda persona, física o jurídica, que resida en territorio español, cualquiera que fuese su nacionalidad."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "Según el artículo 4 de la LO 3/2007, la igualdad de trato y de oportunidades entre mujeres y hombres:",
+      "opciones": [
+        "Es un deber de las Administraciones Públicas.",
+        "Es una fuente formal del Derecho.",
+        "Es un principio informador del ordenamiento jurídico.",
+        "Es un objetivo fundamental del procedimiento administrativo."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "El principio de igualdad de trato y de oportunidades entre mujeres y hombres:",
+      "opciones": [
+        "Solo se aplica en el ámbito del empleo público.",
+        "Se garantizará incluso en el acceso al trabajo por cuenta propia.",
+        "No se aplica en la afiliación y participación en organizaciones sindicales o empresariales.",
+        "Se garantizará en los términos que prevean los convenios colectivos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "La situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo, de manera menos favorable que otra en situación comparable, se considera:",
+      "opciones": [
+        "Discriminación directa.",
+        "Acoso sexual.",
+        "Discriminación indirecta.",
+        "Violencia de género."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Una diferencia de trato basada en una característica relacionada con el sexo, ¿constituye discriminación en el acceso al empleo?",
+      "opciones": [
+        "Sí, en todo caso.",
+        "No, siempre que la formación necesaria se base en dicha característica.",
+        "No, siempre que dicha característica constituya un requisito profesional esencial y determinante.",
+        "No, si debido a la naturaleza de las actividades profesionales concretas o al contexto en el que se lleven a cabo, dicha característica constituya un requisito profesional esencial y determinante, siempre y cuando el objetivo sea legítimo y el requisito proporcionado."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "En virtud del artículo 6.2 de la LO 3/2007, la situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro:",
+      "opciones": [
+        "En cualquier caso constituirá discriminación directa.",
+        "En cualquier caso constituirá discriminación indirecta.",
+        "No se considera discriminación indirecta si dicha disposición, criterio o práctica pueden justificarse objetivamente en atención a una finalidad legítima y los medios para alcanzar dicha finalidad son necesarios y adecuados.",
+        "En ningún caso podrá considerarse discriminación."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "Conforme al artículo 6.3 de la LO 3/2007, toda orden de discriminar por razón de sexo:",
+      "opciones": [
+        "Solo se considera discriminatoria si se ordena discriminar directamente.",
+        "En ningún caso se puede considerar discriminatoria.",
+        "Solo se considera discriminatoria si ordena una discriminación indirecta.",
+        "En cualquier caso se considera discriminatoria, sea directa o indirecta."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "A los efectos de la LO 3/2007, definimos como acoso sexual:",
+      "opciones": [
+        "Cualquier comportamiento realizado en función del sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y de crear un entorno intimidatorio, degradante u ofensivo.",
+        "La situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro, salvo que dicha disposición, criterio o práctica puedan justificarse objetivamente en atención a una finalidad legítima y que los medios para alcanzar dicha finalidad sean necesarios y adecuados.",
+        "Todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad.",
+        "Cualquier comportamiento, verbal o físico, de naturaleza sexual que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona, en particular cuando se crea un entorno intimidatorio, degradante u ofensivo."
+      ],
+      "correcta": 3
+    }
+  ]
+}

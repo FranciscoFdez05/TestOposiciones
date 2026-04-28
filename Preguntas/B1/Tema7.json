@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 7 - Protección de Datos y RGPD",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Según el artículo 18.3 de la Constitución Española, se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas:",
+      "opciones": [
+        "Siempre.",
+        "Salvo resolución judicial.",
+        "Excepto en los casos que establezcan las leyes.",
+        "Salvo consentimiento del interesado."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "Es correcto, conforme a la disposición adicional 3.ª de la LO 3/2018, que:",
+      "opciones": [
+        "Cuando los plazos se señalen por días, se entiende que estos son naturales.",
+        "Si el plazo se fija en semanas, concluirá el día anterior al día de la semana en que se produjo el hecho que determina su iniciación en la semana de vencimiento.",
+        "Si el plazo se fija en años, concluirá el mismo día en que se produjo el hecho que determina su iniciación en el año de vencimiento.",
+        "Cuando el último día del plazo sea inhábil, se entenderá adelantado al último día hábil anterior."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "El RGPD lo define como la persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable del tratamiento:",
+      "opciones": [
+        "El Delegado.",
+        "El Encargado.",
+        "El Representante.",
+        "El Tratante."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "Según el artículo 3 de la LO 3/2018, los requisitos y condiciones para acreditar la validez y vigencia de los mandatos e instrucciones de las personas fallecidas respecto al acceso a los datos personales de estas por parte de las personas o instituciones que designaran expresamente, serán establecidos:",
+      "opciones": [
+        "Por medio de una Directiva europea.",
+        "Por Ley estatal.",
+        "Por Ley autonómica.",
+        "Por Real Decreto."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "El artículo 4 de la LO 3/2018 señala que, conforme al artículo 5.1.d) del Reglamento (UE) 2016/679, los datos serán exactos y, si fuere necesario:",
+      "opciones": [
+        "Actualizados.",
+        "Aproximados.",
+        "Normalizados.",
+        "Digitalizados."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "Señala la respuesta incorrecta. No será imputable al responsable del tratamiento, siempre que este haya adoptado todas las medidas razonables para que se supriman o rectifiquen sin dilación, la inexactitud de los datos personales, con respecto a los fines para los que se tratan, cuando los datos inexactos:",
+      "opciones": [
+        "Hubiesen sido obtenidos por el responsable directamente del encargado.",
+        "Hubiesen sido obtenidos por el responsable de un mediador o intermediario en caso de que las normas aplicables al sector de actividad al que pertenezca el responsable del tratamiento establecieran la posibilidad de intervención de un intermediario o mediador que recoja en nombre propio los datos de los afectados para su transmisión al responsable.",
+        "Fuesen sometidos a tratamiento por el responsable por haberlos recibido de otro responsable en virtud del ejercicio por el afectado del derecho a la portabilidad.",
+        "Fuesen obtenidos de un registro público por el responsable."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Conforme al artículo 5.1 de la LO 3/2018, estarán sujetas al deber de confidencialidad:",
+      "opciones": [
+        "Únicamente los responsables del tratamiento.",
+        "Los responsables y encargados del tratamiento.",
+        "Los responsables y encargados del tratamiento de datos así como todas las personas que intervengan en cualquier fase de este.",
+        "Los responsables y encargados del tratamiento de datos así como todas las personas que intervengan en todas las fases de este."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 8,
+      "enunciado": "Conforme a los artículos 4.11 del RGPD y 6.1 de la LO 3/2018, se entiende por consentimiento del afectado la aceptación, ya sea mediante una declaración o una clara acción afirmativa, del tratamiento de datos personales que le conciernen manifestada por voluntad libre, de forma específica, informada e/y:",
+      "opciones": [
+        "Detallada.",
+        "Unitaria.",
+        "Inequívoca.",
+        "Por escrito."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "Cuando se pretenda fundar el tratamiento de los datos en el consentimiento del afectado para una pluralidad de finalidades:",
+      "opciones": [
+        "Será preciso que conste de manera específica e inequívoca que dicho consentimiento se otorga para todas ellas.",
+        "Será necesario demostrar que el afectado consintió expresa e inequívocamente en alguna de las finalidades y que el resto de finalidades están claramente relacionadas con aquella.",
+        "El responsable debe demostrar la adecuación de las distintas finalidades a un único objeto.",
+        "El consentimiento del afectado solo puede afectar a una finalidad. Cada finalidad precisa un consentimiento propio e independiente."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "Según el artículo 8.1 de la LO 3/2018, el tratamiento de datos personales solo podrá considerarse fundado en el cumplimiento de una obligación legal exigible al responsable:",
+      "opciones": [
+        "Cuando así lo prevea una norma de Derecho de la Unión Europea o una norma con rango de ley.",
+        "Cuando el tratamiento se considere una misión realizada en interés público.",
+        "Cuando se trate del ejercicio de poderes públicos conferidos al responsable.",
+        "Cuando el responsable sea un órgano u organismo público."
+      ],
+      "correcta": 0
+    }
+  ]
+}

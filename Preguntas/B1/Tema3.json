@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 3 - El Gobierno y las relaciones con las Cortes Generales",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Qué Título de la Constitución está dedicado a la regulación del Gobierno?",
+      "opciones": [
+        "El Título III.",
+        "El Título IV.",
+        "El Título V.",
+        "El Título VII."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cuál de las siguientes figuras no es imprescindible en la composición del Gobierno?",
+      "opciones": [
+        "El Presidente.",
+        "Los Ministros.",
+        "Los Vicepresidentes.",
+        "Los Vicepresidentes y los Ministros."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuál de los siguientes órganos indicados es un órgano superior de un departamento ministerial?",
+      "opciones": [
+        "El Secretario de Estado.",
+        "El Director General.",
+        "El Secretario General.",
+        "El Secretario General Técnico."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuál de las siguientes funciones puede ser ejercida por un Presidente del Gobierno en funciones?",
+      "opciones": [
+        "El planteamiento de una cuestión de confianza.",
+        "La propuesta al Rey de celebración de un referéndum consultivo.",
+        "La celebración de Consejos de Ministros.",
+        "La propuesta al Rey de disolución de las Cámaras."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Qué número de Diputados es necesario para interponer una moción de censura?",
+      "opciones": [
+        "Mayoría simple de la Cámara.",
+        "Una décima parte de la Cámara.",
+        "Mayoría absoluta de la Cámara.",
+        "Dos tercios de la Cámara."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "Declarado el estado de alarma:",
+      "opciones": [
+        "Se dará cuenta al Consejo de Ministros, sin cuya autorización no podrá ser prorrogado el plazo inicial.",
+        "Se dará cuenta al Rey, sin cuya autorización no podrá ser prorrogado el plazo inicial de duración.",
+        "Se dará cuenta al Congreso de los Diputados, sin cuya autorización no podrá ser prorrogado dicho plazo.",
+        "Se dará cuenta al Congreso de los Diputados, siendo improrrogable el plazo inicialmente marcado para la duración del estado de alarma."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "La moción de censura no podrá ser votada hasta que, desde su presentación, hayan transcurrido:",
+      "opciones": [
+        "Cinco días.",
+        "Siete días.",
+        "Diez días.",
+        "Treinta días."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Ante quién responde solidariamente el Gobierno de su gestión política?",
+      "opciones": [
+        "Ante el pueblo español.",
+        "Ante las Cortes Generales.",
+        "Ante el Congreso de los Diputados.",
+        "Ante el Rey."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "La disolución de las Cámaras será decretada por:",
+      "opciones": [
+        "El Rey.",
+        "El Presidente del Congreso.",
+        "El Presidente del Gobierno.",
+        "El Gobierno de la Nación."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "El ámbito territorial, duración y condiciones del estado de sitio serán determinados por:",
+      "opciones": [
+        "Las Cortes Generales.",
+        "El Congreso.",
+        "El Rey.",
+        "El Gobierno."
+      ],
+      "correcta": 1
+    }
+  ]
+}

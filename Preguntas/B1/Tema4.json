@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 4 - Estatuto Básico del Empleado Público",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "El Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (EBEP) contiene:",
+      "opciones": [
+        "Aquello que es común al conjunto de los empleados públicos de todas las Administraciones Públicas.",
+        "Las normas legales específicas aplicables a los empleados públicos de todas las Administraciones Públicas.",
+        "Aquello que es común al conjunto de los funcionarios de todas las Administraciones Públicas, más las normas legales específicas aplicables al personal laboral a su servicio.",
+        "Aquello que es común al conjunto del personal laboral de todas las Administraciones Públicas, más las normas legales específicas aplicables al personal funcionario a su servicio."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "Para todo el personal de las Administraciones Públicas no incluido en su ámbito de aplicación, el EBEP tendrá carácter:",
+      "opciones": [
+        "Consultivo.",
+        "Voluntario.",
+        "Supletorio.",
+        "Interpretativo."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "El artículo 8 del Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, define como aquellos quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales:",
+      "opciones": [
+        "A los Funcionarios públicos.",
+        "A los Empleados públicos.",
+        "Al Personal laboral de las Administraciones Públicas.",
+        "Al personal estatutario."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "Corresponden en exclusiva a los funcionarios públicos, en los términos que en la ley de desarrollo de cada Administración Pública se establezca, el ejercicio de funciones:",
+      "opciones": [
+        "Directivas.",
+        "Que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas.",
+        "Del ámbito militar, de la Justicia o de la Hacienda Pública.",
+        "Que impliquen la participación directa (no la indirecta), en la salvaguardia de los intereses generales del Estado."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 5,
+      "enunciado": "Es personal eventual el que, en virtud de nombramiento y con carácter no permanente, solo realiza funciones expresamente calificadas como de confianza o:",
+      "opciones": [
+        "Reservadas.",
+        "Seguridad.",
+        "De asesoramiento especial.",
+        "De asesoramiento general."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "enunciado": "La condición de personal eventual:",
+      "opciones": [
+        "Constituye mérito para el acceso a la Función Pública y para la promoción interna.",
+        "Constituye mérito para el acceso a la Función Pública pero no para la promoción interna.",
+        "No constituye mérito para el acceso a la Función Pública pero sí para la promoción interna.",
+        "No podrá constituir mérito para el acceso a la Función Pública o para la promoción interna."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "La designación del personal directivo de las Administraciones Públicas se llevará a cabo mediante procedimientos que garanticen:",
+      "opciones": [
+        "La publicidad y concurrencia.",
+        "La idoneidad.",
+        "El mérito y la capacidad.",
+        "El control de resultados."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 8,
+      "enunciado": "La renuncia voluntaria a la condición de funcionario:",
+      "opciones": [
+        "Inhabilita para ingresar de nuevo en la Administración Pública.",
+        "No requiere aceptación expresa por la Administración.",
+        "Será aceptada expresamente cuando el funcionario esté sujeto a expediente disciplinario o haya sido dictado en su contra auto de procesamiento o de apertura de juicio oral por la comisión de algún delito.",
+        "Debe ser manifestada por escrito."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "La pena principal o accesoria, a un funcionario público, de inhabilitación absoluta cuando hubiere adquirido firmeza la sentencia que la imponga, produce:",
+      "opciones": [
+        "La suspensión de todas sus funciones públicas.",
+        "La pérdida de la condición de funcionario respecto a todos los empleos o cargos que tuviere.",
+        "La pérdida de la condición de funcionario respecto a todos los empleos o cargos que tuviere, excepto los cargos electivos.",
+        "La excedencia forzosa."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Pueden los órganos de gobierno de las Administraciones Públicas conceder la rehabilitación de quien hubiera perdido la condición de funcionario por haber sido condenado a la pena principal o accesoria de inhabilitación?",
+      "opciones": [
+        "No, en ningún caso.",
+        "Excepcionalmente, atendiendo a las circunstancias y entidad del delito cometido.",
+        "Solo cuando se trate de una inhabilitación provisional.",
+        "Sí, cuando la inhabilitación se tratara de una pena accesoria."
+      ],
+      "correcta": 1
+    }
+  ]
+}

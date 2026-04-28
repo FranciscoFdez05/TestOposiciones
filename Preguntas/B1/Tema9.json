@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 9 - Servicios y Plataformas de Administración Electrónica",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "La gestión de los contenidos del Punto de Acceso General Electrónico corresponde a:",
+      "opciones": [
+        "La Dirección General de Gobernanza Pública.",
+        "La Dirección General de la Función Pública.",
+        "La Dirección General de Relaciones con las Comunidades Autónomas y Entes Locales.",
+        "La Dirección General de Telecomunicaciones y Tecnologías de la Información."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 2,
+      "enunciado": "El artículo 16 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos (RD 203/2021), determina que la Administración General del Estado dispondrá de una plataforma para la verificación de la vigencia y del contenido de los certificados cualificados admitidos en el sector público. El sistema deberá permitir que tal verificación se pueda llevar a cabo para el sector público de forma libre y:",
+      "opciones": [
+        "Presencial.",
+        "Segura.",
+        "Gratuita.",
+        "Encriptada."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "Según el artículo 16 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos (RD 203/2021), la plataforma de la Administración General del Estado para la verificación de la vigencia y del contenido de los certificados cualificados admitidos en el sector público, dispondrá, para detallar las obligaciones que se comprometen a cumplir tanto la plataforma como las personas usuarias de la misma en relación con los servicios de verificación, de:",
+      "opciones": [
+        "Una declaración de prácticas de validación.",
+        "Una carta de servicios.",
+        "Un manual de instrucciones de uso.",
+        "Una ficha técnica de utilización."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "El sistema de cl@ve permanente es un sistema de contraseña:",
+      "opciones": [
+        "De validez duradera en el tiempo pero no ilimitada.",
+        "De validez ilimitada en el tiempo.",
+        "De validez muy limitada en el tiempo.",
+        "Que se corresponde con el sistema PIN24H de la AEAT."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "El diseño de Cl@ve está basado en un sistema de federación de identidades electrónicas, que integra diferentes elementos. Pasarela/gestor de identificación es:",
+      "opciones": [
+        "Una entidad que proporciona servicios electrónicos a los ciudadanos y utiliza la plataforma para la identificación y autenticación de los mismos.",
+        "Una entidad que proporciona mecanismos de identificación y autenticación de los ciudadanos para ser utilizados como medios comunes por otras entidades.",
+        "Un sistema intermediador que posibilita el acceso de los proveedores de servicios a los distintos mecanismos de identificación y la selección de estos por parte del usuario.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "enunciado": "Geiser y ORVE son:",
+      "opciones": [
+        "Soluciones para oficinas de registro, para digitalización de documentos conforme a NTI de Digitalización, e intercambio de asientos registrales por SIR.",
+        "Puntos de entrada centralizados para facturas electrónicas por parte de proveedores de las Administraciones Públicas.",
+        "Modelos de datos para el intercambio de asientos entre Entidades Registrales con independencia del Sistema de Registro origen o destino, y de la tecnología de intercambio.",
+        "Servicios de validación de certificados y firmas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Es un punto de información que funciona como ventanilla única para inicio de actividad empresarial:",
+      "opciones": [
+        "PAG.",
+        "VUDS.",
+        "IPS.",
+        "RFH."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Este servicio permite establecer comunicaciones seguras entre organismos o unidades administrativas, incluyendo documentos anexos:",
+      "opciones": [
+        "TRAJANO.",
+        "EFESO.",
+        "RODAS.",
+        "CORINTO."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Es una herramienta que genera formularios y encuestas para su publicación en portales web:",
+      "opciones": [
+        "ADISE.",
+        "RUN.",
+        "FORMA.",
+        "PLATA."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Cuál de los siguientes Servicios permite integrar en la tramitación los avisos a los ciudadanos a través de SMS o de correo electrónico?",
+      "opciones": [
+        "Notific@.",
+        "Sistema de Notificaciones Electrónicas.",
+        "Plataforma de Mensajería SIM.",
+        "Acceda."
+      ],
+      "correcta": 2
+    }
+  ]
+}

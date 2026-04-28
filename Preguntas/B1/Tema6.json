@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 6 - Agenda Digital para España y España Digital 2025",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿En cuántos objetivos específicos se estructuraban las líneas de actuación de la Agenda Digital para España?",
+      "opciones": [
+        "3 objetivos específicos.",
+        "5 objetivos específicos.",
+        "6 objetivos específicos.",
+        "8 objetivos específicos."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Con cuántas líneas de actuación se puso en marcha la Agenda Digital para España?",
+      "opciones": [
+        "78.",
+        "95.",
+        "106.",
+        "120."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "Con el objetivo de la Agenda Digital para España \"fomentar el despliegue de redes y servicios para garantizar la conectividad digital\", se pretendía llegar en 2020 a una cobertura para el 100% de la ciudadanía de más de:",
+      "opciones": [
+        "10 Mbps.",
+        "30 Mbps.",
+        "100 Mbps.",
+        "300 Mbps."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "El segundo objetivo de la Agenda Digital para España es: \"desarrollar la economía digital para el crecimiento, la competitividad y la ............... de la empresa española\". Indica la palabra que falta en la frase anterior:",
+      "opciones": [
+        "Automatización.",
+        "Modernización.",
+        "Promoción.",
+        "Internacionalización."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "Con el cuarto objetivo de la Agenda Digital para España: \"Reforzar la confianza en el ámbito digital\", se incentiva la confianza en el entorno digital con acciones de:",
+      "opciones": [
+        "Ciberseguridad.",
+        "Certificación.",
+        "Normalización.",
+        "Capacitación digital."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "¿En cuántos ejes estratégicos se articula el conjunto de medidas, reformas e inversiones de la Agenda España Digital 2025?",
+      "opciones": [
+        "6.",
+        "8.",
+        "10.",
+        "12."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "Un objetivo de la Agenda España Digital 2025 es acelerar la digitalización de las empresas, con especial atención a las micropymes y las start-ups. Se establece la meta en 2025 de alcanzar un porcentaje de contribución del comercio electrónico al volumen de negocio PYME del:",
+      "opciones": [
+        "10%.",
+        "25%.",
+        "40%.",
+        "60%."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Un objetivo de la Agenda España Digital 2025 es continuar liderando en Europa el despliegue de la tecnología 5G, incentivando su contribución al aumento de la productividad económica, al progreso social y a la vertebración territorial; se establece como meta para 2025 alcanzar:",
+      "opciones": [
+        "Un 50% del espectro radioeléctrico preparado para 5G.",
+        "Un 60% del espectro radioeléctrico preparado para 5G.",
+        "Un 80% del espectro radioeléctrico preparado para 5G.",
+        "Un 100% del espectro radioeléctrico preparado para 5G."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Un objetivo de la Agenda España Digital 2025 es reforzar la capacidad española en ciberseguridad, consolidando su posición como uno de los polos europeos de capacidad empresarial. Así, para 2025 se pretende contar con:",
+      "opciones": [
+        "5.000 nuevos especialistas en ciber-seguridad, IA y Datos.",
+        "10.000 nuevos especialistas en ciber-seguridad, IA y Datos.",
+        "20.000 nuevos especialistas en ciber-seguridad, IA y Datos.",
+        "50.000 nuevos especialistas en ciber-seguridad, IA y Datos."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "Un objetivo de la Agenda España Digital 2025 es favorecer el tránsito hacia una economía del dato, garantizando la seguridad y privacidad y aprovechando las oportunidades que ofrece la Inteligencia Artificial; la meta es alcanzar en 2025 un porcentaje de empresas que usan IA y Big Data del:",
+      "opciones": [
+        "25%.",
+        "45%.",
+        "60%.",
+        "75%."
+      ],
+      "correcta": 0
+    }
+  ]
+}

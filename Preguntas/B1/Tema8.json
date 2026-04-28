@@ -1,0 +1,115 @@
+{
+  "tema": "Tema 8 - Administración Electrónica y LPACAP",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Comunicarse con las Administraciones Públicas por medios electrónicos es:",
+      "opciones": [
+        "Un deber de los ciudadanos.",
+        "Un derecho de las Administraciones Públicas.",
+        "Un derecho de los ciudadanos.",
+        "Un derecho fundamental de los españoles, recogido por la Constitución; y, a la vez, un deber."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "El artículo 26.2 de la Ley 39/2015 (LPACAP) exige, para ser válidos, \"contener información de cualquier naturaleza en un soporte electrónico según un formato determinado y susceptible de identificación y tratamiento diferenciado\", a:",
+      "opciones": [
+        "Las notificaciones administrativas.",
+        "Las comunicaciones electrónicas.",
+        "Los documentos electrónicos.",
+        "Los certificados electrónicos."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "Los registros electrónicos de las Administraciones Públicas deben permitir la presentación de solicitudes, escritos y comunicaciones:",
+      "opciones": [
+        "Los mismos días hábiles que el resto de registros.",
+        "En el horario de presencia de los funcionarios a su cargo.",
+        "Al menos 12 horas al día, todos los días lectivos.",
+        "Todos los días del año durante las 24 horas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuál de los siguientes es un principio básico del Esquema Nacional de Seguridad?",
+      "opciones": [
+        "Enfoque de seguridad multilateral.",
+        "Prevención, detección, respuesta y conservación.",
+        "Reevaluación integral.",
+        "Seguridad multidimensional."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 5,
+      "enunciado": "En relación con el tipo de comunicación del interesado con la Administración, no es cierto que:",
+      "opciones": [
+        "Las personas físicas puedan elegir en todo momento si se comunican con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios electrónicos o no, salvo que estén obligadas a relacionarse a través de medios electrónicos con las Administraciones Públicas.",
+        "Las Administraciones puedan establecer la obligación de relacionarse con ellas a través de medios electrónicos para determinados procedimientos y para ciertos colectivos de personas físicas.",
+        "Las personas jurídicas estén obligadas a relacionarse a través de medios electrónicos con las Administraciones Públicas para la realización de cualquier trámite de un procedimiento administrativo.",
+        "El medio elegido por la persona para comunicarse con las Administraciones Públicas no puede ser modificado a lo largo del procedimiento."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 6,
+      "enunciado": "No están obligados a relacionarse a través de medios electrónicos con las Administraciones Públicas para la realización de cualquier trámite de un procedimiento administrativo:",
+      "opciones": [
+        "Las entidades sin personalidad jurídica.",
+        "Todo aquel que ostente la representación de un interesado.",
+        "Quienes ejerzan una actividad profesional para la que se requiera colegiación obligatoria, para los trámites y actuaciones que realicen con las Administraciones Públicas en ejercicio de dicha actividad profesional.",
+        "Las personas jurídicas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 7,
+      "enunciado": "En las disposiciones de creación de registros electrónicos no es necesario especificar:",
+      "opciones": [
+        "Los días declarados como inhábiles.",
+        "La caducidad del registro.",
+        "El órgano o unidad responsable de su gestión.",
+        "La fecha y hora oficial."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "El proceso tecnológico que permite convertir un documento en soporte papel o en otro soporte no electrónico en un fichero electrónico que contiene la imagen codificada, fiel e íntegra del documento, se conoce en la LPACAP como:",
+      "opciones": [
+        "Automatización.",
+        "Fotocopiado.",
+        "Autenticación.",
+        "Digitalización."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "En relación con el funcionamiento del registro electrónico, es cierto que:",
+      "opciones": [
+        "Permitirá la presentación de documentos todos los días hábiles del año durante la jornada laboral de su personal.",
+        "El inicio del cómputo de los plazos que hayan de cumplir las Administraciones Públicas vendrá determinado por la fecha y hora de presentación en el registro electrónico de cada Administración u Organismo.",
+        "Los documentos se considerarán presentados por el orden de hora efectiva en el que fueron aceptados por el funcionario habilitado al efecto.",
+        "El registro electrónico de cualquier Administración u Organismo se regirá a efectos de cómputo de los plazos, por la fecha y hora oficial indicada por el Central European Time."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Qué calendario de días inhábiles se aplicará en los registros electrónicos a efectos del cómputo de plazos?",
+      "opciones": [
+        "El que se publique al efecto en el Boletín Oficial del Estado para todos los registros.",
+        "El que se publique al efecto en el boletín oficial de la Comunidad Autónoma para todos los registros ubicados en ella.",
+        "El que determine la sede electrónica del registro de cada Administración Pública u Organismo.",
+        "El que determine la sede electrónica del ayuntamiento en cuyo municipio se ubique el registro."
+      ],
+      "correcta": 2
+    }
+  ]
+}
