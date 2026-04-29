@@ -498,6 +498,40 @@
                 height: calc(100dvh - 10px);
             }
         }
+
+        .aleatorio-container {
+            padding: 0 8px 6px 8px;
+            background: #f8f9fa;
+            flex-shrink: 0;
+        }
+
+        .btn-aleatorio {
+            width: 100%;
+            padding: 6px;
+            background: white;
+            border: 2px solid #e67e22;
+            border-radius: 8px;
+            color: #e67e22;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-aleatorio.activo {
+            background: #e67e22;
+            color: white;
+        }
+
+        .btn-parar {
+            background: #dc3545;
+            color: white;
+        }
+
+        .stats-aleatorio {
+            color: #e67e22;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -509,6 +543,10 @@
 
         <div class="bloques-container" id="bloques">
             <!-- Se rellena dinámicamente -->
+        </div>
+
+        <div class="aleatorio-container">
+            <button id="btnAleatorio" class="btn-aleatorio">Preguntas Aleatorias (todos los temas)</button>
         </div>
 
         <div class="content">
@@ -542,6 +580,7 @@
                 <div class="controles">
                     <button class="btn btn-anterior" id="btnAnterior">← Anterior</button>
                     <button class="btn btn-siguiente" id="btnSiguiente">Siguiente →</button>
+                    <button class="btn btn-parar" id="btnParar" style="display:none">⏹ Parar</button>
                 </div>
             </div>
 
@@ -582,6 +621,10 @@
         let preguntas = [];
         let respuestas = {};
         let mezclarActivo = false;
+        let modoAleatorio = false;
+        let poolAleatorio = [];
+        let poolIndice = 0;
+        let statsAleatorio = { correctas: 0, incorrectas: 0 };
 
         function inicializarBloques() {
             const contenedor = document.getElementById('bloques');
@@ -624,12 +667,23 @@
             const select = document.getElementById('temaSelect');
             select.value = '';
             select.innerHTML = '<option value="">Selecciona un tema...</option>';
+            const fetchPromises = [];
             for (let i = 1; i <= numTemas; i++) {
-                const option = document.createElement('option');
-                option.value = `Tema${i}`;
-                option.textContent = `Tema ${i}`;
-                select.appendChild(option);
+                fetchPromises.push(
+                    fetch(`Preguntas/${bloque}/Tema${i}.json`)
+                        .then(r => r.ok ? r.json() : null)
+                        .then(data => ({ i, label: data?.tema || `Tema ${i}` }))
+                        .catch(() => ({ i, label: `Tema ${i}` }))
+                );
             }
+            Promise.all(fetchPromises).then(results => {
+                results.sort((a, b) => a.i - b.i).forEach(({ i, label }) => {
+                    const option = document.createElement('option');
+                    option.value = `Tema${i}`;
+                    option.textContent = label;
+                    select.appendChild(option);
+                });
+            });
         }
 
         function ocultarTodosContenedores() {
@@ -639,8 +693,16 @@
         }
 
         function cerrarTest() {
+            if (modoAleatorio) {
+                modoAleatorio = false;
+                document.getElementById('btnAleatorio').classList.remove('activo');
+                document.getElementById('btnParar').style.display = 'none';
+                document.getElementById('btnAnterior').style.display = '';
+            }
             ocultarTodosContenedores();
             document.getElementById('noTemaSeleccionado').classList.add('activa');
+            document.querySelector('#noTemaSeleccionado .seleccionar-tema p').textContent =
+                '👈 Selecciona un bloque y un tema para comenzar';
             document.querySelectorAll('.bloque-btn').forEach(b => b.classList.remove('active'));
             document.getElementById('temaDropdown').style.display = 'none';
             document.getElementById('temaSelect').value = '';
@@ -752,12 +814,6 @@
             respuestas[preguntaActual] = opcionSeleccionada;
             mostrarPregunta(preguntaActual);
 
-            const respondidas = Object.keys(respuestas).length;
-            if (respondidas === preguntas.length) {
-                setTimeout(mostrarResultados, 600);
-                return;
-            }
-
             if (preguntaActual < preguntas.length - 1) {
                 const btnSig = document.getElementById('btnSiguiente');
                 btnSig.classList.remove('pulse');
@@ -778,29 +834,198 @@
             document.getElementById('numCorrectas').textContent = correctas;
             document.getElementById('numIncorrectas').textContent = incorrectas;
 
+            const btnReintentar = document.getElementById('btnReintentar');
+            btnReintentar.textContent = 'Repetir test';
+            btnReintentar.onclick = () => { if (temaActual) cargarTema(temaActual); };
+
             ocultarTodosContenedores();
             document.getElementById('resultadosContainer').classList.add('activa');
         }
 
         function actualizarControles() {
+            const todasRespondidas = Object.keys(respuestas).length === preguntas.length;
+            const btnSig = document.getElementById('btnSiguiente');
             document.getElementById('btnAnterior').disabled = preguntaActual === 0;
-            document.getElementById('btnSiguiente').disabled = preguntaActual === preguntas.length - 1;
+
+            if (todasRespondidas) {
+                btnSig.disabled = false;
+                btnSig.textContent = 'Ver resultados →';
+                btnSig.onclick = mostrarResultados;
+            } else {
+                btnSig.disabled = preguntaActual === preguntas.length - 1;
+                btnSig.textContent = 'Siguiente →';
+                btnSig.onclick = () => mostrarPregunta(preguntaActual + 1);
+            }
         }
 
         document.getElementById('btnCerrar').addEventListener('click', cerrarTest);
         document.getElementById('btnAnterior').addEventListener('click', () => mostrarPregunta(preguntaActual - 1));
-        document.getElementById('btnSiguiente').addEventListener('click', () => mostrarPregunta(preguntaActual + 1));
+        document.getElementById('btnSiguiente').onclick = () => mostrarPregunta(preguntaActual + 1);
 
-        document.getElementById('btnReintentar').addEventListener('click', () => {
-            if (temaActual) cargarTema(temaActual);
-        });
+        document.getElementById('btnReintentar').onclick = () => { if (temaActual) cargarTema(temaActual); };
 
         document.addEventListener('keydown', (e) => {
             const container = document.getElementById('preguntaContainer');
             if (!container.classList.contains('activa')) return;
+            if (modoAleatorio) return;
             if (e.key === 'ArrowLeft') mostrarPregunta(preguntaActual - 1);
             if (e.key === 'ArrowRight') mostrarPregunta(preguntaActual + 1);
         });
+
+        async function iniciarModoAleatorio() {
+            modoAleatorio = true;
+            poolAleatorio = [];
+            poolIndice = 0;
+            statsAleatorio = { correctas: 0, incorrectas: 0 };
+            bloqueActual = null;
+            temaActual = null;
+            respuestas = {};
+
+            document.getElementById('btnAleatorio').classList.add('activo');
+            document.querySelectorAll('.bloque-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('temaDropdown').style.display = 'none';
+
+            ocultarTodosContenedores();
+            document.getElementById('noTemaSeleccionado').classList.add('activa');
+            document.querySelector('#noTemaSeleccionado .seleccionar-tema p').innerHTML =
+                '<span class="cargando">Cargando todos los temas</span>';
+
+            const fetchPromises = [];
+            Object.keys(estructura).forEach(bloque => {
+                const numTemas = estructura[bloque].temas;
+                for (let i = 1; i <= numTemas; i++) {
+                    fetchPromises.push(
+                        fetch(`Preguntas/${bloque}/Tema${i}.json`)
+                            .then(r => r.ok ? r.json() : null)
+                            .then(data => data ? data.preguntas : [])
+                            .catch(() => [])
+                    );
+                }
+            });
+
+            const resultados = await Promise.all(fetchPromises);
+            poolAleatorio = resultados.flat();
+            mezclar(poolAleatorio);
+            poolIndice = 0;
+
+            if (poolAleatorio.length === 0) {
+                document.querySelector('#noTemaSeleccionado .seleccionar-tema p').textContent =
+                    '❌ No se pudieron cargar preguntas';
+                modoAleatorio = false;
+                document.getElementById('btnAleatorio').classList.remove('activo');
+                return;
+            }
+
+            mostrarPreguntaAleatoria();
+        }
+
+        function mostrarPreguntaAleatoria() {
+            if (!modoAleatorio) return;
+
+            if (poolIndice >= poolAleatorio.length) {
+                mezclar(poolAleatorio);
+                poolIndice = 0;
+            }
+
+            const pregunta = poolAleatorio[poolIndice];
+            const total = statsAleatorio.correctas + statsAleatorio.incorrectas;
+
+            document.getElementById('preguntaNumero').innerHTML =
+                `<span class="stats-aleatorio">Aleatorio · ${total > 0 ? `${total} respondidas · ✓${statsAleatorio.correctas} ✗${statsAleatorio.incorrectas}` : 'Empieza a responder'}</span>`;
+            document.getElementById('preguntaTexto').textContent = pregunta.enunciado;
+
+            const contenedorOpciones = document.getElementById('opciones');
+            contenedorOpciones.innerHTML = '';
+            const letras = ['A', 'B', 'C', 'D'];
+            pregunta.opciones.forEach((texto, idx) => {
+                const div = document.createElement('div');
+                div.className = 'opcion';
+                div.onclick = () => responderPreguntaAleatoria(idx, pregunta);
+                div.innerHTML = `<span class="opcion-letra">${letras[idx]}</span><span class="opcion-texto">${texto}</span>`;
+                contenedorOpciones.appendChild(div);
+            });
+
+            const feedback = document.getElementById('feedback');
+            feedback.classList.remove('correcto', 'incorrecto');
+
+            const pct = total > 0 ? Math.round(statsAleatorio.correctas / total * 100) : 0;
+            document.getElementById('barraProgreso').style.width = pct + '%';
+            document.getElementById('contadorProgreso').textContent = total > 0 ? `Aciertos: ${pct}%` : '';
+
+            document.getElementById('btnAnterior').style.display = 'none';
+            const btnSig = document.getElementById('btnSiguiente');
+            btnSig.disabled = true;
+            btnSig.textContent = 'Siguiente →';
+            btnSig.onclick = () => { poolIndice++; mostrarPreguntaAleatoria(); };
+            document.getElementById('btnParar').style.display = '';
+
+            ocultarTodosContenedores();
+            document.getElementById('preguntaContainer').classList.add('activa');
+            document.getElementById('preguntaContainer').scrollTop = 0;
+        }
+
+        function responderPreguntaAleatoria(opcionSeleccionada, pregunta) {
+            const letras = ['A', 'B', 'C', 'D'];
+            const esCorrecta = opcionSeleccionada === pregunta.correcta;
+
+            if (esCorrecta) statsAleatorio.correctas++;
+            else statsAleatorio.incorrectas++;
+
+            document.querySelectorAll('.opcion').forEach((div, idx) => {
+                div.classList.add('respondida');
+                div.onclick = null;
+                if (idx === pregunta.correcta) div.classList.add('correcta');
+                else if (idx === opcionSeleccionada) div.classList.add('incorrecta');
+            });
+
+            const feedback = document.getElementById('feedback');
+            if (esCorrecta) {
+                feedback.textContent = '✓ ¡Correcto!';
+                feedback.classList.add('correcto');
+            } else {
+                feedback.textContent = `✗ Incorrecto. La respuesta correcta es la ${letras[pregunta.correcta]}`;
+                feedback.classList.add('incorrecto');
+            }
+
+            const total = statsAleatorio.correctas + statsAleatorio.incorrectas;
+            document.getElementById('preguntaNumero').innerHTML =
+                `<span class="stats-aleatorio">Aleatorio · ${total} respondidas · ✓${statsAleatorio.correctas} ✗${statsAleatorio.incorrectas}</span>`;
+            const pct = Math.round(statsAleatorio.correctas / total * 100);
+            document.getElementById('barraProgreso').style.width = pct + '%';
+            document.getElementById('contadorProgreso').textContent = `Aciertos: ${pct}%`;
+
+            const btnSig = document.getElementById('btnSiguiente');
+            btnSig.disabled = false;
+            btnSig.classList.remove('pulse');
+            void btnSig.offsetWidth;
+            btnSig.classList.add('pulse');
+        }
+
+        function pararModoAleatorio() {
+            modoAleatorio = false;
+            document.getElementById('btnAleatorio').classList.remove('activo');
+            document.getElementById('btnParar').style.display = 'none';
+            document.getElementById('btnAnterior').style.display = '';
+
+            const total = statsAleatorio.correctas + statsAleatorio.incorrectas;
+            const pct = total > 0 ? Math.round(statsAleatorio.correctas / total * 100) : 0;
+
+            document.getElementById('resultadosScore').textContent = `${pct}%`;
+            document.getElementById('resultadosTexto').textContent =
+                `${total} preguntas respondidas en modo aleatorio`;
+            document.getElementById('numCorrectas').textContent = statsAleatorio.correctas;
+            document.getElementById('numIncorrectas').textContent = statsAleatorio.incorrectas;
+
+            const btnReintentar = document.getElementById('btnReintentar');
+            btnReintentar.textContent = 'Nuevo aleatorio';
+            btnReintentar.onclick = iniciarModoAleatorio;
+
+            ocultarTodosContenedores();
+            document.getElementById('resultadosContainer').classList.add('activa');
+        }
+
+        document.getElementById('btnAleatorio').addEventListener('click', iniciarModoAleatorio);
+        document.getElementById('btnParar').addEventListener('click', pararModoAleatorio);
 
         inicializarBloques();
     </script>
